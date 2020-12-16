@@ -61,3 +61,28 @@ a {
     color: #ffffff;
     background-color: #125fde;
 }
+
+table {
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    margin: 15px auto;
+    background-color: seagreen;
+}
+
+td, th {
+    height: 40px;
+    width: 200px;
+}
+
+td:hover, th:hover {
+    background-color: #125fde;
+}
+
+a:hover {
+    color: white;
+}
+
+.twopart {
+    font-size: 16px;
+}
