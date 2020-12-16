@@ -1,8 +1,19 @@
+body {
+    background-color: #2f2f2f;
+    margin: 0;
+}
+h2{
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    margin: 50px auto 0;
+    color: white;
+}
 
 #nav {
     height: 50px;
-    width: 1000px;
-    margin: 100px;
+    width: 900px;
+    margin: auto;
     background-color: mediumspringgreen;
     text-align: left;
     font-weight: bold;
@@ -14,7 +25,7 @@ a {
     text-decoration: none;
 }
 
-.p1,.p2 {
+.p1, .p2 {
     margin: 5px 0px 0px 5px;
     padding: 0;
     text-align: left;
@@ -22,7 +33,7 @@ a {
 
 .n1 {
     height: 50px;
-    width: 100px;
+    width: 150px;
     background-color: seagreen;
     float: left;
     transition: all .2s ease-in-out 0s;
@@ -31,42 +42,6 @@ a {
 
 .n2 {
     height: 50px;
-    width: 100px;
-    background-color: seagreen;
-    float: left;
-    transition: all .2s ease-in-out 0s;
-    color: mediumspringgreen;
-}
-
-.n3 {
-    height: 50px;
-    width: 100px;
-    background-color: seagreen;
-    float: left;
-    transition: all .2s ease-in-out 0s;
-    color: mediumspringgreen;
-}
-
-.n4 {
-    height: 50px;
-    width: 100px;
-    background-color: seagreen;
-    float: left;
-    transition: all .2s ease-in-out 0s;
-    color: mediumspringgreen;
-}
-
-.n5 {
-    height: 50px;
-    width: 100px;
-    background-color: seagreen;
-    float: left;
-    transition: all .2s ease-in-out 0s;
-    color: mediumspringgreen;
-}
-
-.n6 {
-    height: 50px;
     width: 200px;
     background-color: seagreen;
     float: right;
@@ -74,49 +49,15 @@ a {
     color: mediumspringgreen;
 }
 
-.n21 {
-    margin: 0;
-    padding: 0;
-    height: 50px;
-    width: 400px;
-    background-color: seagreen;
-    float: right;
-    color: mediumspringgreen;
-    display: none;
-}
+
 .n1:hover {
-    width: 400px;
+    width: 250px;
     color: seagreen;
     background-color: mediumspringgreen;
-    
 }
+
 .n2:hover {
-    width: 400px;
-    color: seagreen;
-    background-color: mediumspringgreen;
-}
-.n3:hover {
-    width: 400px;
-    color: seagreen;
-    background-color: mediumspringgreen;
-}
-.n4:hover {
-    width: 400px;
-    color: seagreen;
-    background-color: mediumspringgreen;
-}
-.n5:hover {
-    width: 400px;
-    color: seagreen;
-    background-color: mediumspringgreen;
-}
-.n6:hover {
-    width: 500px;
+    width: 250px;
     color: #ffffff;
     background-color: #125fde;
-}
-.n2:hover .n21 {
-    color: seagreen;
-    background-color: mediumspringgreen;
-    display: block;
 }
