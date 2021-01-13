@@ -2,7 +2,7 @@
 let setTheme = localStorage.getItem('theme')
 
 if(setTheme == null) {
-	swapStyle('dark.css')
+	swapStyle('light.css')
 } else {
 	swapStyle(setTheme)
 }
