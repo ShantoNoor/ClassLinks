@@ -1,6 +1,4 @@
 * {
-	margin: 0;
-	padding: 0;
 	color: black;
 }
 
@@ -9,79 +7,35 @@ body {
 }
 
 .main {
-	width: 90%;
-	margin: 20px auto;
-	padding: 15px;
 	background-color: #ffffff;
-}
-
-.main:hover {
-	box-shadow: 0 5px 30px rgba(10,10,10,.75);
-    transition: all ease .3s;
 }
 
 .body {
 	border: solid 1px #c3c3c2;
-	padding: 10px;
-	font-size: 18px;
-	margin-top: 10px;
-	border-radius: 10px;
 }
 
 .body:hover {
 	border-color: #9a999c;
-	transition: all .2s ease-in-out 0s;
-}
-
-.head {
-	padding: 10px;
 }
 
 table, th, td {
   border: 1px solid #9a999c;
 }
 
-table {
-	margin: 0 auto;
-	border-collapse: collapse;
-	text-align: center;
-	font-size: 22px;
-}
-
-td, th {
-    height: 50px;
-    width: 200px;
-}
 td:hover, th:hover {
     background-color: rgba(50, 50, 50, 0.1);
-    transition: all .2s ease-in-out 0s;
 }
 
 a {
-	text-decoration: none;
 	color: #0571ed;
 }
 a:hover {
 	color: rgb(255, 74, 74);
-	transition: all .2s ease-in-out 0s;
-}
-
-.button-box {
-	text-align: right;
-	margin-right: 40px;
-	margin-top: 20px;
 }
 
 button {
 	background-color: #4CAF50;
-	border: none;
 	color: white;
-	padding: 15px 32px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	font-size: 16px;
-	transition-duration: 0.4s;
 }
 
 .dark-button {
