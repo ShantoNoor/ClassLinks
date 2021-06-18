@@ -1,252 +1,454 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-	<title>All Class Recordings and More | ClassLinks</title>
-	<link rel="stylesheet" type="text/css" href="light.css" id="style">
-	<link rel="stylesheet" type="text/css" href="main.css" id="style">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <style>
+        *, *:before, *:after { 
+            -moz-box-sizing: border-box; 
+            -webkit-box-sizing: border-box; 
+            box-sizing: border-box; 
+        }
+        .aos-all {
+            max-width: 100% !important;
+            width: 100% !important;
+            width: 100vw !important;
+            overflow: hidden;
+            margin: 0;
+        }
+        a { text-decoration: none; }
+        body { padding-top: 60px; }
+    </style>
+    
+    <title>All Class Recordings and More | ClassLinks</title>
 </head>
+
 <body>
-	<dir class="button-box">
-		<button class="light-button" onclick="swapStyle('light.css')">Light Mode</button>
-		<button class="dark-button" onclick="swapStyle('dark.css')">Dark Mode</button>
-	</dir>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark aos-all" data-aos="slide-down">
+        <div class="container">
+            <a class="navbar-brand" href="https://shantonoor.github.io/ClassLinks/">ClassLinks</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#snd" id="navbarDropdown3" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false" aria-current="page">
+                            2nd Semester
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown3" aria-current="page">
+                            <li><a class="dropdown-item" aria-current="page" href="#ads">Algorithms Design and Analysis |
+                                    CSE 251</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" aria-current="page" href="#adsl">Algorithms Design and Analysis Lab
+                                    | CSE 252</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" aria-current="page" href="#law">Cyber and Intellectual Property Law
+                                    | LAW 255</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" aria-current="page" href="#ids">Introduction to Digital Systems |
+                                    CSE 253</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" aria-current="page" href="#toc">Theory of Computing | CSE 255</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#ost" id="navbarDropdown3" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false" aria-current="page">
+                            1st Semester
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown3" aria-current="page">
+                            <li><a class="dropdown-item" aria-current="page" href="#asq">Applied Statistics and Queuing |
+                                    STA 205</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" aria-current="page" href="#ds">Data Structure | CSE 201</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" aria-current="page" href="#jt">Java Technology | CSE 205</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" aria-current="page" href="#vmf">Vector, Matrix and Fourier
+                                    Analysis | MAT 205</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#ar">Additional Resources</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-	<div class="main">
-		<dir class="head">
-			<h1>2nd Semester</h1>
-			<h2>Class Recoarding Links - <a href="https://drive.google.com/file/d/18oSa0uNs4Xnaqe6CjUlkMnqYJqWvsYZk/view?usp=sharing" target="_blank">Routine</a></h2>
-			<div class="body">
-				<h3>Algorithms Design and Analysis</h3>
-				<h3>## ADS - <a href="https://www.youtube.com/playlist?list=PL8rCA8Qh8VHsoMQbAXthQz894nUvxl-wY" target="_blank">PLAYLIST</a> - <a href="https://drive.google.com/drive/folders/1lMoYHNpgQidnrH7i6ZYHkdJpHHIsQqQ6" target="_blank">ALL PDFS</a></h3>
+    
+    <div class="h-100 p-5 container-expand-lg text-dark bg-light d-flex justify-content-center" id="snd" data-aos="slide-down">
+        <p class="h3"><i class="fas fa-book"></i> 2nd Semester</p>
+    </div>
 
-				<h3><a href="https://youtu.be/ILutWXtYUKc" target="_blank"># ADS - Class Date : 13-06-2021 - Watch</a></h3>
-				<h3><a href="https://youtu.be/s0q9uevzFvs" target="_blank"># ADS - Class Date : 10-06-2021 - Watch</a></h3>
-				<h3><a href="https://youtu.be/_NWl6SNNq9s" target="_blank"># ADS - Class Date : 07-06-2021 - Watch</a></h3>
-				<h3><a href="https://youtu.be/mY1eTsNdYc8" target="_blank"># ADS - Class Date : 31-05-2021 - Watch</a></h3>
-				<h3><a href="https://youtu.be/w7WeDAb7naM" target="_blank"># ADS - Class Date : 30-05-2021 - Watch</a></h3>
-				<h3><a href="https://youtu.be/IHWQoZhg5AQ" target="_blank"># ADS - Class Date : 18-03-2021  - Watch</a></h3>
-				<h3><a href="https://youtu.be/rRmHvTQ6AQg" target="_blank"># ADS - Class Date : 15-03-2021 - Watch</a></h3>
-				<h3><a href="https://youtu.be/BfL_2GGCN7o" target="_blank"># ADS - Class Date : 08-03-2021 - Watch</a></h3>
-				<br>
-				<h3>Algorithms Design and Analysis Lab</h3>
-				<h3><a href="https://youtu.be/ZO2I8bic7fM" target="_blank"># ADS Lab - Class Date : 13-03-2021 - Watch</a></h3>
-				<br>
-				<h3>Introduction to Digital Systems</h3>
-				<h3>## IDS - <a href="https://www.youtube.com/playlist?list=PL8rCA8Qh8VHsWgFOycdvJzS3n_zQNwmot" target="_blank">PLAYLIST</a> - <a href="https://drive.google.com/drive/u/0/folders/1XvQ_FV8vK0vl-VVKXnqNFm_axssXufD7" target="_blank">ALL PDFS</a></h3>
 
-				<h3><a href="https://youtu.be/_At2mklJKZI" target="_blank"># IDS - Class Date : 16-06-2021 - Watch</a></h3>
-				<h3><a href="https://youtu.be/K6AzvWgFRGA" target="_blank"># IDS - Class Date : 09-06-2021 - Watch</a></h3>
-				<h3><a href="https://youtu.be/58YYCEO2Uao" target="_blank"># IDS - Class Date : 07-06-2021 - Watch</a></h3>
-				<h3><a href="https://youtu.be/8cBRMcwijYA" target="_blank"># IDS - Class Date : 02-06-2021 - Watch</a></h3>
-				<h3><a href="https://youtu.be/pqD-ck_JYV0" target="_blank"># IDS - Class Date : 31-05-2021 - Watch</a></h3>
-				<h3><a href="https://youtu.be/Vn3340EgI_g" target="_blank"># IDS - Class Date : 15-03-2021 - Watch</a></h3>
-				<br>
-				<h3>Cyber and Intellectual Property Law</h3>
-				<h3><a href="https://youtu.be/GQx8PcRgMXg" target="_blank"># LAW - Class Date : 17-06-2021 - Watch</a></h3>
-				<br>
-				<h3>Theory of Computing</h3>
-				<h3>## TOC - <a href="https://www.youtube.com/playlist?list=PL8rCA8Qh8VHuuZaKdjkbfJ6jRJTjRJd3P" target="_blank">PLAYLIST</a> - <a href="https://drive.google.com/drive/folders/139MivZs1PUrwZsjkLYbDZideLvVOR16k?usp=sharing" target="_blank">ALL PDFS</a></h3>
+    <div class="container">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+            <div class="col mt-4" id="ads" data-aos="fade-up-right">
+                <div class="card" style="width: 22rem;">
+                    <img src="img/ads.jpg" class="card-img-top" alt="ADS">
+                    <div class="card-body">
+                        <h5 class="card-title">Algorithms Design and Analysis</h5>
+                        <p class="card-text">Subject Code : CSE 251</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/ILutWXtYUKc" target="_blank">ADS - Class Date : 13-06-2021</a>
+                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/s0q9uevzFvs" target="_blank">ADS - Class Date : 10-06-2021</a>
+                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/_NWl6SNNq9s" target="_blank">ADS - Class Date : 07-06-2021</a>
+                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/mY1eTsNdYc8" target="_blank">ADS - Class Date : 31-05-2021</a>
+                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/w7WeDAb7naM" target="_blank">ADS - Class Date : 30-05-2021</a>
+                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/IHWQoZhg5AQ" target="_blank">ADS - Class Date : 18-03-2021</a>
+                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/rRmHvTQ6AQg" target="_blank">ADS - Class Date : 15-03-2021</a>
+                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/BfL_2GGCN7o" target="_blank">ADS - Class Date : 08-03-2021</a>
+                    </ul>
+                    <div class="card-body d-flex d-flex justify-content-end">
+                        <a href="https://www.youtube.com/playlist?list=PL8rCA8Qh8VHsoMQbAXthQz894nUvxl-wY" target="_blank" class="card-link btn btn-outline-danger btn-sm"><i class="fab fa-youtube"></i> Playlist</a>
+                        <a href="https://drive.google.com/drive/folders/1lMoYHNpgQidnrH7i6ZYHkdJpHHIsQqQ6" target="_blank" class="card-link btn btn-warning btn-sm"><i class="fab fa-google-drive"></i> All Pdfs</a>
+                    </div>
+                </div>
+            </div>
 
-				<h3><a href="https://youtu.be/2uxiDKV2l90" target="_blank"># TOC - Class Date : 03-06-2021 - Watch</a></h3>
-				<h3><a href="https://youtu.be/rdP7b2VxI18" target="_blank"># TOC - Class Date : 02-06-2021 - Watch</a></h3>
-				<h3><a href="https://youtu.be/w6ti9Ip6ooI" target="_blank"># TOC - Class Date : 25-03-2021 - Watch</a></h3>
-				<h3><a href="https://youtu.be/KrmH7h_ZrRs" target="_blank"># TOC - Class Date : 11-03-2021 - Watch</a></h3>
-				<h3><a href="https://youtu.be/YtrPCSVrUa0" target="_blank"># TOC - Class Date : 10-03-2021 - Watch</a></h3>
-			</div>
-		</dir>
-	</div>
+            <div class="col mt-4" id="ids" data-aos="fade-up">
+                <div class="card" style="width: 22rem;">
+                    <img src="img/ids.jpg" class="card-img-top" alt="IDS">
+                    <div class="card-body">
+                        <h5 class="card-title">Introduction to Digital Systems</h5>
+                        <p class="card-text">Subject Code : CSE 253</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <a href="https://youtu.be/_At2mklJKZI" target="_blank" class="list-group-item list-group-item-action list-group-item-primary">IDS - Class Date : 16-06-2021</a>
+                        <a href="https://youtu.be/K6AzvWgFRGA" target="_blank" class="list-group-item list-group-item-action list-group-item-info">IDS - Class Date : 09-06-2021</a>
+                        <a href="https://youtu.be/58YYCEO2Uao" target="_blank" class="list-group-item list-group-item-action list-group-item-primary">IDS - Class Date : 07-06-2021</a>
+                        <a href="https://youtu.be/8cBRMcwijYA" target="_blank" class="list-group-item list-group-item-action list-group-item-info">IDS - Class Date : 02-06-2021</a>
+                        <a href="https://youtu.be/pqD-ck_JYV0" target="_blank" class="list-group-item list-group-item-action list-group-item-primary">IDS - Class Date : 31-05-2021</a>
+                        <a href="https://youtu.be/Vn3340EgI_g" target="_blank" class="list-group-item list-group-item-action list-group-item-info">IDS - Class Date : 15-03-2021</a>
+                    </ul>
+                    <div class="card-body d-flex justify-content-end">
+                        <a href="https://www.youtube.com/playlist?list=PL8rCA8Qh8VHsWgFOycdvJzS3n_zQNwmot" target="_blank" class="card-link btn btn-outline-danger btn-sm"><i class="fab fa-youtube"></i> Playlist</a>
+                        <a href="https://drive.google.com/drive/u/0/folders/1XvQ_FV8vK0vl-VVKXnqNFm_axssXufD7" target="_blank" class="card-link btn btn-warning btn-sm"><i class="fab fa-google-drive"></i> All Pdfs</a>
+                    </div>
+                </div>
+            </div>
 
-	<dir class="main">
-		<dir class="head">
-			<h1>1st Semester</h1>
-			<h2>Class Recoarding Links</h2>
-		</dir>
+            <div class="col mt-4" id="toc" data-aos="fade-up-left">
+                <div class="card" style="width: 22rem;">
+                    <img src="img/toc.jpg" class="card-img-top" alt="TOC">
+                    <div class="card-body">
+                        <h5 class="card-title">Theory of Computing</h5>
+                        <p class="card-text">Subject Code : CSE 255</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/ILutWXtYUKc" target="_blank">ADS - Class Date : 13-06-2021</a>
 
-		<dir class="body">
-			<table>
-				<tr>
-					<th>Playlist</th>
-					<th><a href="https://www.youtube.com/playlist?list=PL8rCA8Qh8VHsOOQgJVfAeJZaKWxcAf4i-" target="_blank">Java Technology</a></th>
-					<th><a href="https://www.youtube.com/playlist?list=PL8rCA8Qh8VHvbWauF-Z-rHlNTvrchyPRZ" target="_blank">Statistics</a></th>
-					<th><a href="https://www.youtube.com/playlist?list=PL8rCA8Qh8VHuHerrhCOF734tuoNw7bf_V" target="_blank">Mathematics</a></th>
-					<th><a href="https://www.youtube.com/playlist?list=PL8rCA8Qh8VHuykmaj2TjKyYEttl_zXK7B" target="_blank">Data Structures</a></th>
-				</tr>
-				<tr>
-					<td>Class 01</td>
-					<td><a href="https://youtu.be/DjClCZYVC5M" target="_blank">Watch</a></td>
-					<td class='twopart'>
-						<a href="https://youtu.be/o7p1DhhDOQk" target="_blank">Watch Part 1</a> <br>
-						<a href="https://youtu.be/GSkuCntc1ks" target="_blank">Watch Part 2</a>
-					</td>
-					<td><a href="https://youtu.be/DGY6bvjzbeU" target="_blank">Watch</a></td>
-					<td><a href="https://youtu.be/2-80Y-p1ymI" target="_blank">Watch</a></td>
-				</tr>
-				<tr>
-					<td>Class 02</td>
-					<td><a href="https://youtu.be/Y1tQSQsmkl4" target="_blank">Watch</a></td>
-					<td><a href="https://youtu.be/gEaRnce17ek" target="_blank">Watch</a></td>
-					<td><a href="https://youtu.be/3WyDcu1i2jc" target="_blank">Watch</a></td>
-					<td><a href="https://youtu.be/LdU7V7q8DHE" target="_blank">Watch</a></td>
-				</tr>
-				<tr>
-					<td>Class 03</td>
-					<td><a href="https://youtu.be/r7e3AweEeP8" target="_blank">Watch</a></td>
-					<td><a href="https://youtu.be/MAb59NE_j-o" target="_blank">Watch</a></td>
-					<td><a href="https://youtu.be/oCsvDCM6QeI" target="_blank">Watch</a></td>
-					<td><a href="https://youtu.be/DZk4gHNSSrQ" target="_blank">Watch</a></td>
-				</tr>
-				<tr>
-					<td>Class 04</td>
-					<td><a href="https://youtu.be/DwNXKpLuA10" target="_blank">Watch</a></td>
-					<td><a href="https://youtu.be/Y0vYiax7l4o" target="_blank">Watch</a></td>
-					<td><a href="https://youtu.be/A5Y7c-_AtSg" target="_blank">Watch</a></td>
-					<td><a href="https://youtu.be/AJ9Mv3SbuTg" target="_blank">Watch</a></td>
-				</tr>
-				<tr>
-					<td>Class 05</td>
-					<td><a href="https://youtu.be/6kiOhlFKcfQ" target="_blank">Watch</a></td>
-					<td><a href="https://youtu.be/roLnNLJ7Oic" target="_blank">Watch</a></td>
-					<td><a href="https://youtu.be/DqKsoyNrsxg" target="_blank">Watch</a></td>
-					<td><a href="https://youtu.be/GFITngi9mhk" target="_blank">Watch</a></td>
-				</tr>
-				<tr>
-					<td>Class 06</td>
-					<td><a href="https://youtu.be/U7Vy2-ORwqE" target="_blank">Watch</a></td>
-					<td>404</td>
-					<td><a href="https://youtu.be/tGZG-FHg87o" target="_blank">Watch</a></td>
-					<td><a href="https://youtu.be/Q4F6R_jktfk" target="_blank">Watch</a></td>
-				</tr>
-				<tr>
-					<td>Class 07</td>
-					<td><a href="https://youtu.be/bHINP9C_atI" target="_blank">Watch</a></td>
-					<td><a href="https://youtu.be/FNGFv1yILPI" target="_blank">Watch</a></td>
-					<td><a href="https://youtu.be/u_0g_IsPeRM" target="_blank">Watch</a></td>
-					<td>404</td>
-				</tr>
-				<tr>
-					<td>Class 08</td>
-					<td><a href="https://youtu.be/BVxPXksa2Ns" target="_blank">Watch</a></td>
-					<td><a href="https://youtu.be/0OMEpnIum_o" target="_blank">Watch</a></td>
-					<td><a href="https://youtu.be/JEWogC-8HsU" target="_blank">Watch</a></td>
-					<td>404</td>
-				</tr>
-				<tr>
-					<td>Class 09</td>
-					<td><a href="https://youtu.be/irplql4ifyE" target="_blank">Watch</a></td>
-					<td><a href="https://youtu.be/6GYRuEgZ_4k" target="_blank">Watch</a></td>
-					<td><a href="https://youtu.be/XnP99s8yRCo" target="_blank">Watch</a></td>
-					<td>404</td>
-				</tr>
-				<tr>
-					<td>Class 10</td>
-					<td><a href="https://youtu.be/af1CLPbHRcw" target="_blank">Watch</a></td>
-					<td><a href="https://youtu.be/kQ46OakYmmw" target="_blank">Watch</a></td>
-					<td><a href="https://youtu.be/zs_0yM0eFuI" target="_blank">Watch</a></td>
-					<td>404</td>
-				</tr>
-				<tr>
-					<td>Class 11</td>
-					<td><a href="https://youtu.be/OZXQ5D_wtss" target="_blank">Watch</a></td>
-					<td><a href="https://youtu.be/-LcAkVrW7vM" target="_blank">Watch</a></td>
-					<td><a href="https://youtu.be/ZRcJduxmFsU" target="_blank">Watch</a></td>
-					<td>404</td>
-				</tr>
-				<tr>
-					<td>Class 12</td>
-					<td><a href="https://youtu.be/fmFmZQDHkKk" target="_blank">Watch</a></td>
-					<td><a href="https://youtu.be/IhHSeSYGNzE" target="_blank">Watch</a></td>
-					<td><a href="https://youtu.be/f23EVe6nrcU" target="_blank">Watch</a></td>
-					<td>404</td>
-				</tr>
-				<tr>
-					<td>Class 13</td>
-					<td><a href="https://youtu.be/Gm28Pi6JVL4" target="_blank">Watch</a></td>
-					<td><a href="https://youtu.be/MvsMyVkPAH8" target="_blank">Watch</a></td>
-					<td><a href="https://youtu.be/iqwUhk0-nmg" target="_blank">Watch</a></td>
-					<td>404</td>
-				</tr>
-				<tr>
-					<td>Class 14</td>
-					<td>404</td>
-					<td><a href="https://youtu.be/RyDhW6bsVQo" target="_blank">Watch</a></td>
-					<td><a href="https://youtu.be/wZo5Im5XGzo" target="_blank">Watch</a></td>
-					<td>404</td>
-				</tr>
-				<tr>
-					<td>Class 15</td>
-					<td>404</td>
-					<td>404</td>
-					<td><a href="https://youtu.be/I4KgOSbUySk" target="_blank">Watch</a></td>
-					<td>404</td>
-				</tr>
-				<!-- <tr>
-					<td>404</td>
-					<td>404</td>
-					<td>404</td>
-					<td>404</td>
-				</tr> -->
-			</table>
-		</dir>
-	</dir>
+                        <a href="https://youtu.be/2uxiDKV2l90" target="_blank" class="list-group-item list-group-item-action list-group-item-info">TOC - Class Date : 03-06-2021</a>
+                        <a href="https://youtu.be/rdP7b2VxI18" target="_blank" class="list-group-item list-group-item-action list-group-item-primary">TOC - Class Date : 02-06-2021</a>
+                        <a href="https://youtu.be/w6ti9Ip6ooI" target="_blank" class="list-group-item list-group-item-action list-group-item-info">TOC - Class Date : 25-03-2021</a>
+                        <a href="https://youtu.be/KrmH7h_ZrRs" target="_blank" class="list-group-item list-group-item-action list-group-item-primary">TOC - Class Date : 11-03-2021</a>
+                        <a href="https://youtu.be/YtrPCSVrUa0" target="_blank" class="list-group-item list-group-item-action list-group-item-info">TOC - Class Date : 10-03-2021</a>
+                    </ul>
+                    <div class="card-body d-flex justify-content-end">
+                        <a href="https://www.youtube.com/playlist?list=PL8rCA8Qh8VHuuZaKdjkbfJ6jRJTjRJd3P" target="_blank" class="card-link btn btn-outline-danger btn-sm"><i class="fab fa-youtube"></i> Playlist</a>
+                        <a href="https://drive.google.com/drive/folders/139MivZs1PUrwZsjkLYbDZideLvVOR16k?usp=sharing" target="_blank" class="card-link btn btn-warning btn-sm"><i class="fab fa-google-drive"></i> All Pdfs</a>
+                    </div>
+                </div>
+            </div>
 
-	<div class="main">
-		<dir class="head">
-			<h2>Google Group</h2>
-		</dir>
+            <div class="col mt-4" id="law" data-aos="fade-up-right">
+                <div class="card" style="width: 22rem;">
+                    <img src="img/law.jpg" class="card-img-top" alt="LAW">
+                    <div class="card-body">
+                        <h5 class="card-title">Cyber and Intellectual Property Law</h5>
+                        <p class="card-text">Subject Code : LAW 255</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <a href="https://youtu.be/GQx8PcRgMXg" target="_blank" class="list-group-item list-group-item-action list-group-item-info">LAW - Class Date : 17-06-2021</a>
+                    </ul>
+                </div>
+            </div>
 
-		<dir class="body">
-			<h3>Digital Logic Design | CSE 203</h3>
-			<p><a href="https://groups.google.com/g/cse203-jan2020" target="_blank"># Digital Logic Design</a></p>
-		</dir>
-	</div>
+            <div class="col mt-4" id="adsl" data-aos="fade-up">
+                <div class="card" style="width: 22rem;">
+                    <img src="img/adsl.jpg" class="card-img-top" alt="ADSL">
+                    <div class="card-body">
+                        <h5 class="card-title">Algorithms Design and Analysis Lab</h5>
+                        <p class="card-text">Subject Code : CSE 252</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <a href="https://youtu.be/ZO2I8bic7fM" target="_blank" class="list-group-item list-group-item-action list-group-item-info">ADS Lab - Class Date : 13-03-2021</a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 
-	<div class="main">
-		<dir class="head">
-			<h2>Statistics Class Wise PDFs</h2>
-		</dir>
+    <div class="h-100 p-5 container-expand-lg text-dark bg-light d-flex justify-content-center mt-4" id="ost" data-aos="slide-up">
+        <p class="h3"><i class="fas fa-book"></i> 1st Semester</p>
+    </div>
 
-		<dir class="body">
-			<p><a href="https://drive.google.com/drive/folders/1r-mLSlPXGWW-yejtJhhwhdDV0qK_fnbz?usp=sharing" target="_blank"># All PDFs</a></p>
-			<p><a href="https://drive.google.com/file/d/1-uT-xwjkjC1W7CcxBnB64a6OEMCwr1h_/view?usp=sharing" target="_blank">## Class 01</a></p>
-			<p><a href="https://drive.google.com/file/d/1SbsOceqAJYavEexF6XaBn5tVCwnwoCQw/view?usp=sharing" target="_blank">## Class 02</a></p>
-			<p><a href="https://drive.google.com/file/d/12uHjNS5UPf_92SRky1Fm-98y4IslzDcI/view?usp=sharing" target="_blank">## Class 03</a></p>
-			<p><a href="https://drive.google.com/file/d/1pFumeebv4GtHknB_rYhiOFGmanfWU010/view?usp=sharing" target="_blank">## Class 04</a></p>
-			<p><a href="https://drive.google.com/file/d/1IPwW9fRx82WSNPDY8z0p_mH4MphVnf-D/view?usp=sharing" target="_blank">## Class 05-06</a></p>
-			<p><a href="https://drive.google.com/file/d/19BIH40uerbKanTCcFYJj9hfvTrLIBevf/view?usp=sharing" target="_blank">## Class 07</a></p>
-			<p><a href="https://drive.google.com/file/d/1eUv9KBFxkqiQT7YyXsFMv5f1ZMHexXWC/view?usp=sharing" target="_blank">## Class 08</a></p>
-			<p><a href="https://drive.google.com/file/d/1Xp4oa7tuUymedJRrZHp12ypbiRmnxHVC/view?usp=sharing" target="_blank">## Class 09</a></p>
-			<p><a href="https://drive.google.com/file/d/1DGqxlYU4572J-CUA97SFapTV6z_zGMXe/view?usp=sharing" target="_blank">## Class 10</a></p>
-			<p><a href="https://drive.google.com/file/d/1p0zuRc2P2s2tVbc8NEisDg3BKh7rXMIN/view?usp=sharing" target="_blank">## Class 11-12</a></p>
-			<p><a href="https://drive.google.com/file/d/1pl3WVeEwH75NBbDI7RSC-yrdMqve132o/view?usp=sharing" target="_blank">## Class 13</a></p>
-			<p><a href="https://drive.google.com/file/d/18tSTTtL-HhjM5ncPMap5D_Nk2z2WPNfP/view?usp=sharing" target="_blank">## Class 14</a></p>
-		</dir>
-	</div>
+    <div class="container">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+            <div class="col mt-4" id="jt" data-aos="fade-up-right">
+                <div class="card" style="width: 22rem;">
+                    <img src="img/jt.jpg" class="card-img-top" alt="JAVA">
+                    <div class="card-body">
+                        <h5 class="card-title">Java Technology</h5>
+                        <p class="card-text">Subject Code : CSE 205</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/DjClCZYVC5M" target="_blank">Java - Class - 01</a>
+                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/Y1tQSQsmkl4" target="_blank">Java - Class - 02</a>
+                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/r7e3AweEeP8" target="_blank">Java - Class - 03</a>
+                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/DwNXKpLuA10" target="_blank">Java - Class - 04</a>
+                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/6kiOhlFKcfQ" target="_blank">Java - Class - 05</a>
+                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/U7Vy2-ORwqE" target="_blank">Java - Class - 06</a>
+                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/bHINP9C_atI" target="_blank">Java - Class - 07</a>
+                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/BVxPXksa2Ns" target="_blank">Java - Class - 08</a>
+                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/irplql4ifyE" target="_blank">Java - Class - 09</a>
+                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/af1CLPbHRcw" target="_blank">Java - Class - 10</a>
+                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/OZXQ5D_wtss" target="_blank">Java - Class - 11</a>
+                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/fmFmZQDHkKk" target="_blank">Java - Class - 12</a>
+                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/Gm28Pi6JVL4" target="_blank">Java - Class - 13</a>
+                    </ul>
+                    <div class="card-body d-flex justify-content-end">
+                        <a href="https://www.youtube.com/playlist?list=PL8rCA8Qh8VHsOOQgJVfAeJZaKWxcAf4i-" target="_blank" class="card-link btn btn-outline-danger btn-sm"><i class="fab fa-youtube"></i> Playlist</a>
+                    </div>
+                </div>
+            </div>
 
-	<div class="main">
-		<dir class="head">
-			<h2>Google Classroom</h2>
-		</dir>
+            <div class="col mt-4" id="asq" data-aos="fade-up">
+                <div class="card" style="width: 22rem;">
+                    <img src="img/sta.jpg" class="card-img-top" alt="Statistics">
+                    <div class="card-body">
+                        <h5 class="card-title">Applied Statistics and Queuing</h5>
+                        <p class="card-text">Subject Code : STA 205</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/o7p1DhhDOQk" target="_blank">STA - Class - 01-1</a>
+                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/GSkuCntc1ks" target="_blank">STA - Class - 01-2</a>
+                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/gEaRnce17ek" target="_blank">STA - Class - 02</a>
+                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/MAb59NE_j-o" target="_blank">STA - Class - 03</a>
+                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/Y0vYiax7l4o" target="_blank">STA - Class - 04</a>
+                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/roLnNLJ7Oic" target="_blank">STA - Class - 05</a>
+                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/FNGFv1yILPI" target="_blank">STA - Class - 07</a>
+                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/0OMEpnIum_o" target="_blank">STA - Class - 08</a>
+                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/6GYRuEgZ_4k" target="_blank">STA - Class - 09</a>
+                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/kQ46OakYmmw" target="_blank">STA - Class - 10</a>
+                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/-LcAkVrW7vM" target="_blank">STA - Class - 11</a>
+                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/IhHSeSYGNzE" target="_blank">STA - Class - 12</a>
+                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/MvsMyVkPAH8" target="_blank">STA - Class - 13</a>
+                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/RyDhW6bsVQo" target="_blank">STA - Class - 14</a>
+                    </ul>
+                    <div class="card-body d-flex justify-content-end">
+                        <a href="https://www.youtube.com/playlist?list=PL8rCA8Qh8VHvbWauF-Z-rHlNTvrchyPRZ" target="_blank" class="card-link btn btn-outline-danger btn-sm"><i class="fab fa-youtube"></i> Playlist</a>
+                        <a href="https://drive.google.com/drive/folders/1r-mLSlPXGWW-yejtJhhwhdDV0qK_fnbz?usp=sharing" target="_blank" class="card-link btn btn-warning btn-sm"><i class="fab fa-google-drive"></i> All Pdfs</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col mt-4" id="vmf" data-aos="fade-up-left">
+                <div class="card" style="width: 22rem;">
+                    <img src="img/mat.jpg" class="card-img-top" alt="Mathematics">
+                    <div class="card-body">
+                        <h5 class="card-title">Vector, Matrix and Fourier Analysis</h5>
+                        <p class="card-text">Subject Code : MAT 205</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/DGY6bvjzbeU" target="_blank">MAT - Class - 01</a>
+                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/3WyDcu1i2jc" target="_blank">MAT - Class - 02</a>
+                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/oCsvDCM6QeI" target="_blank">MAT - Class - 03</a>
+                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/A5Y7c-_AtSg" target="_blank">MAT - Class - 04</a>
+                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/DqKsoyNrsxg" target="_blank">MAT - Class - 05</a>
+                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/tGZG-FHg87o" target="_blank">MAT - Class - 06</a>
+                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/u_0g_IsPeRM" target="_blank">MAT - Class - 07</a>
+                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/JEWogC-8HsU" target="_blank">MAT - Class - 08</a>
+                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/XnP99s8yRCo" target="_blank">MAT - Class - 09</a>
+                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/zs_0yM0eFuI" target="_blank">MAT - Class - 10</a>
+                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/ZRcJduxmFsU" target="_blank">MAT - Class - 11</a>
+                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/f23EVe6nrcU" target="_blank">MAT - Class - 12</a>
+                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/iqwUhk0-nmg" target="_blank">MAT - Class - 13</a>
+                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/wZo5Im5XGzo" target="_blank">MAT - Class - 14</a>
+                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/I4KgOSbUySk" target="_blank">MAT - Class - 15</a>
+                    </ul>
+                    <div class="card-body d-flex justify-content-end">
+                        <a href="https://www.youtube.com/playlist?list=PL8rCA8Qh8VHuHerrhCOF734tuoNw7bf_V" target="_blank" class="card-link btn btn-outline-danger btn-sm"><i class="fab fa-youtube"></i> Playlist</a>
+                    </div>
+                </div>
+            </div>
 
-		<dir class="body">
-			<h3>Java Technology | CSE 205</h3>
-			<p><a href="https://classroom.google.com/u/0/c/Njc0OTE2NzM0NjBa" target="_blank"># Java Technology (Theory)</a></p>
-		</dir>
+            <div class="col mt-4" id="ds" data-aos="fade-up-right">
+                <div class="card" style="width: 22rem;">
+                    <img src="img/ds.jpg" class="card-img-top" alt="Data Structure">
+                    <div class="card-body">
+                        <h5 class="card-title">Data Structure</h5>
+                        <p class="card-text">Subject Code : CSE 201</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/2-80Y-p1ymI" target="_blank">DS - Class - 01</a>
+                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/LdU7V7q8DHE" target="_blank">DS - Class - 02</a>
+                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/DZk4gHNSSrQ" target="_blank">DS - Class - 03</a>
+                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/AJ9Mv3SbuTg" target="_blank">DS - Class - 04</a>
+                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/GFITngi9mhk" target="_blank">DS - Class - 05</a>
+                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/Q4F6R_jktfk" target="_blank">DS - Class - 06</a>
+                    </ul>
+                    <div class="card-body d-flex justify-content-end">
+                        <a href="https://www.youtube.com/playlist?list=PL8rCA8Qh8VHuykmaj2TjKyYEttl_zXK7B" target="_blank" class="card-link btn btn-outline-danger btn-sm"><i class="fab fa-youtube"></i> Playlist</a>
+                    </div>
+                </div>
+            </div>
 
-		<dir class="body">
-			<h3>Java Technology Lab | CSE 206</h3>
-			<p><a href="https://classroom.google.com/u/0/c/MTQ3MjU0NzU1NzIw" target="_blank"># Java Technology (Lab)</a></p>
-		</dir>
-	</div>
+            <!-- <div class="col mt-4">
+                <div class="card" style="width: 22rem;">
+                    <img src="https://source.unsplash.com/1600x900/?algorithm" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Algorithms Design and Analysis</h5>
+                        <p class="card-text">Subject Code : CSE 251</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/ILutWXtYUKc" target="_blank">ADS - Class Date : 13-06-2021</a>
+                    </ul>
+                    <div class="card-body d-flex justify-content-end">
+                        <a href="" target="_blank" class="card-link btn btn-outline-danger btn-sm"><i class="fab fa-youtube"></i> Playlist</a>
+                        <a href="" target="_blank" class="card-link btn btn-warning btn-sm"><i class="fab fa-google-drive"></i> All Pdfs</a>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </div>
 
-	<div class="main">
-		<h2>Additional Resources</h2>
-		<dir class="body">
-			<p><a href="https://drive.google.com/drive/folders/14s5PT9qT-jQqedlmESm5dGE9EPdgiGQ9?usp=sharing" target="_blank"># Java-Tutorials-by-Maloy-Sir</a></p>
-			<p><a href="https://drive.google.com/file/d/14O8LJX_5XlKEmDANc1Yr4O9hNBiOIXjH/view?usp=sharing" target="_blank"># CSE-Syllabus</a></p>
-			<p><a href="https://github.com/ShantoNoor/bsmrstu_cse_semester_questions" target="_blank"># Previous-Year-Questions</a></p>
-		</dir>
-	</div>
+    <div class="h-100 p-5 container-expand-lg text-dark bg-light d-flex justify-content-center mt-4" id="ar" data-aos="slide-up">
+        <p class="h3"><i class="fas fa-plus-circle"></i> Additional Resources</p>
+    </div>
+ 
+    <div class="container">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+            <div class="col mt-4" data-aos="fade-up-right">
+                <div class="card border-success" style="max-width: 22rem;">
+                    <a href="https://groups.google.com/g/cse203-jan2020" target="_blank">
+                        <div class="card-header bg-transparent border-success"><i class="fas fa-user-friends"></i> Google Group</div>
+                        <div class="card-body text-success">
+                            <h5 class="card-title">Digital Logic Design</h5>
+                            <p class="card-text">Subject Code : CSE 203</p>
+                        </div>
+                    </a>
+                </div>
+            </div>    
 
-	<script type="text/javascript" src="script.js"></script>
+            <div class="col mt-4" data-aos="fade-up">
+                <div class="card border-success" style="max-width: 22rem;">
+                    <a href="https://classroom.google.com/u/0/c/Njc0OTE2NzM0NjBa" target="_blank">
+                        <div class="card-header bg-transparent border-success"><i class="fas fa-users"></i> Google Classroom</div>
+                        <div class="card-body text-success">
+                            <h5 class="card-title">Java Technology</h5>
+                            <p class="card-text">Subject Code : CSE 205</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col mt-4" data-aos="fade-up-left">
+                <div class="card border-success" style="max-width: 22rem;">
+                    <a href="https://classroom.google.com/u/0/c/MTQ3MjU0NzU1NzIw" target="_blank">
+                        <div class="card-header bg-transparent border-success"><i class="fas fa-users"></i> Google Classroom</div>
+                        <div class="card-body text-success">
+                            <h5 class="card-title">Java Technology Lab</h5>
+                            <p class="card-text">Subject Code : CSE 206</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col mt-4" data-aos="fade-up-right">
+                <div class="card border-success" style="max-width: 22rem;">
+                    <a href="https://drive.google.com/drive/folders/14s5PT9qT-jQqedlmESm5dGE9EPdgiGQ9?usp=sharing" target="_blank">
+                        <div class="card-header bg-transparent border-success"><i class="fas fa-photo-video"></i> Java Tutorials by Maloy Sir</div>
+                        <div class="card-body text-success">
+                            <h5 class="card-title"><i class="fab fa-google-drive"></i> Java Technology</h5>
+                            <p class="card-text">Subject Code : CSE 206</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col mt-4" data-aos="fade-up">
+                <div class="card border-success" style="max-width: 22rem;">
+                    <a href="https://drive.google.com/file/d/14O8LJX_5XlKEmDANc1Yr4O9hNBiOIXjH/view?usp=sharing" target="_blank">
+                        <div class="card-body text-success">
+                            <h5 class="card-title"><i class="fas fa-atlas"></i> CSE Syllabus</h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col mt-4" data-aos="fade-up-left">
+                <div class="card border-success" style="max-width: 22rem;">
+                    <a href="https://github.com/ShantoNoor/bsmrstu_cse_semester_questions" target="_blank">
+                        <div class="card-body text-success">
+                            <h5 class="card-title"><i class="far fa-question-circle"></i> Previous Year Questions</h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="col mt-4" data-aos="fade-up-right">
+                <div class="card border-success" style="max-width: 22rem;">
+                    <a href="https://drive.google.com/file/d/18oSa0uNs4Xnaqe6CjUlkMnqYJqWvsYZk/view?usp=sharing" target="_blank">
+                        <div class="card-body text-success">
+                            <h5 class="card-title"><i class="fas fa-sticky-note"></i> 2nd Semester Routine</h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="h-100 p-5 container-expand-lg text-dark bg-light d-flex justify-content-center mt-4" data-aos="slide-up">
+        <p class="h3">
+            <a href="https://www.youtube.com/channel/UCcYetB1giQHeS-X7NcAedvw" target="_blank" class="btn btn-danger btn"><i class="fab fa-youtube"></i> YouTube</a> | 
+            <a href="https://github.com/ShantoNoor/ClassLinks" target="_blank" class="btn btn-dark btn"><i class="fab fa-github"></i> GitHub</a>
+        </p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true
+        });
+    </script>
 </body>
+
 </html>
