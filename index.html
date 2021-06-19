@@ -6,37 +6,26 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-
-    <!-- AOS CSS -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
+    <link rel="stylesheet" href="css/animate.css">
 
     <style>
-        *, *:before, *:after { 
-            -moz-box-sizing: border-box; 
-            -webkit-box-sizing: border-box; 
-            box-sizing: border-box; 
-        }
-        .aos-all {
-            max-width: 100% !important;
-            width: 100% !important;
-            width: 100vw !important;
-            margin: 0;
-        }
         a { text-decoration: none; }
-        body { padding-top: 60px; }
     </style>
     
     <title>All Class Recordings and More | ClassLinks</title>
 </head>
 
 <body>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark aos-all" data-aos="slide-down">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark wow slideInDown">
         <div class="container">
             <a class="navbar-brand" href="https://shantonoor.github.io/ClassLinks/">ClassLinks</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -108,14 +97,14 @@
     </nav>
 
     
-    <div class="h-100 p-5 container-expand-lg text-dark bg-light d-flex justify-content-center" id="snd" data-aos="slide-down">
+    <div class="h-100 p-5 container-expand-lg text-dark bg-light d-flex justify-content-center wow fadeInDown" id="snd">
         <p class="h3"><i class="fas fa-book"></i> 2nd Semester</p>
     </div>
 
 
     <div class="container">
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
-            <div class="col mt-4" id="ads" data-aos="fade-up-right">
+            <div class="col mt-4 wow fadeInLeft" id="ads">
                 <div class="card" style="width: 22rem;">
                     <img src="img/ads.jpg" class="card-img-top" alt="ADS">
                     <div class="card-body">
@@ -139,7 +128,7 @@
                 </div>
             </div>
 
-            <div class="col mt-4" id="ids" data-aos="fade-up">
+            <div class="col mt-4 wow fadeInUp" id="ids">
                 <div class="card" style="width: 22rem;">
                     <img src="img/ids.jpg" class="card-img-top" alt="IDS">
                     <div class="card-body">
@@ -161,7 +150,7 @@
                 </div>
             </div>
 
-            <div class="col mt-4" id="toc" data-aos="fade-up-left">
+            <div class="col mt-4 wow fadeInRight" id="toc">
                 <div class="card" style="width: 22rem;">
                     <img src="img/toc.jpg" class="card-img-top" alt="TOC">
                     <div class="card-body">
@@ -169,8 +158,6 @@
                         <p class="card-text">Subject Code : CSE 255</p>
                     </div>
                     <ul class="list-group list-group-flush">
-                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/ILutWXtYUKc" target="_blank">ADS - Class Date : 13-06-2021</a>
-
                         <a href="https://youtu.be/2uxiDKV2l90" target="_blank" class="list-group-item list-group-item-action list-group-item-info">TOC - Class Date : 03-06-2021</a>
                         <a href="https://youtu.be/rdP7b2VxI18" target="_blank" class="list-group-item list-group-item-action list-group-item-primary">TOC - Class Date : 02-06-2021</a>
                         <a href="https://youtu.be/w6ti9Ip6ooI" target="_blank" class="list-group-item list-group-item-action list-group-item-info">TOC - Class Date : 25-03-2021</a>
@@ -184,7 +171,7 @@
                 </div>
             </div>
 
-            <div class="col mt-4" id="law" data-aos="fade-up-right">
+            <div class="col mt-4 wow fadeInLeft" id="law">
                 <div class="card" style="width: 22rem;">
                     <img src="img/law.jpg" class="card-img-top" alt="LAW">
                     <div class="card-body">
@@ -197,7 +184,7 @@
                 </div>
             </div>
 
-            <div class="col mt-4" id="adsl" data-aos="fade-up">
+            <div class="col mt-4 wow fadeInUp" id="adsl">
                 <div class="card" style="width: 22rem;">
                     <img src="img/adsl.jpg" class="card-img-top" alt="ADSL">
                     <div class="card-body">
@@ -212,13 +199,13 @@
         </div>
     </div>
 
-    <div class="h-100 p-5 container-expand-lg text-dark bg-light d-flex justify-content-center mt-4" id="ost" data-aos="slide-up">
+    <div class="h-100 p-5 container-expand-lg text-dark bg-light d-flex justify-content-center mt-4 wow fadeInUp" id="ost">
         <p class="h3"><i class="fas fa-book"></i> 1st Semester</p>
     </div>
 
     <div class="container">
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
-            <div class="col mt-4" id="jt" data-aos="fade-up-right">
+            <div class="col mt-4 wow fadeInLeft" id="jt">
                 <div class="card" style="width: 22rem;">
                     <img src="img/jt.jpg" class="card-img-top" alt="JAVA">
                     <div class="card-body">
@@ -246,7 +233,7 @@
                 </div>
             </div>
 
-            <div class="col mt-4" id="asq" data-aos="fade-up">
+            <div class="col mt-4 wow fadeInUp" id="asq">
                 <div class="card" style="width: 22rem;">
                     <img src="img/sta.jpg" class="card-img-top" alt="Statistics">
                     <div class="card-body">
@@ -254,20 +241,20 @@
                         <p class="card-text">Subject Code : STA 205</p>
                     </div>
                     <ul class="list-group list-group-flush">
-                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/o7p1DhhDOQk" target="_blank">STA - Class - 01-1</a>
-                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/GSkuCntc1ks" target="_blank">STA - Class - 01-2</a>
-                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/gEaRnce17ek" target="_blank">STA - Class - 02</a>
-                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/MAb59NE_j-o" target="_blank">STA - Class - 03</a>
-                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/Y0vYiax7l4o" target="_blank">STA - Class - 04</a>
-                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/roLnNLJ7Oic" target="_blank">STA - Class - 05</a>
-                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/FNGFv1yILPI" target="_blank">STA - Class - 07</a>
-                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/0OMEpnIum_o" target="_blank">STA - Class - 08</a>
-                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/6GYRuEgZ_4k" target="_blank">STA - Class - 09</a>
-                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/kQ46OakYmmw" target="_blank">STA - Class - 10</a>
-                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/-LcAkVrW7vM" target="_blank">STA - Class - 11</a>
-                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/IhHSeSYGNzE" target="_blank">STA - Class - 12</a>
-                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/MvsMyVkPAH8" target="_blank">STA - Class - 13</a>
-                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/RyDhW6bsVQo" target="_blank">STA - Class - 14</a>
+                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/o7p1DhhDOQk" target="_blank">Statistics - Class - 01-1</a>
+                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/GSkuCntc1ks" target="_blank">Statistics - Class - 01-2</a>
+                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/gEaRnce17ek" target="_blank">Statistics - Class - 02</a>
+                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/MAb59NE_j-o" target="_blank">Statistics - Class - 03</a>
+                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/Y0vYiax7l4o" target="_blank">Statistics - Class - 04</a>
+                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/roLnNLJ7Oic" target="_blank">Statistics - Class - 05</a>
+                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/FNGFv1yILPI" target="_blank">Statistics - Class - 07</a>
+                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/0OMEpnIum_o" target="_blank">Statistics - Class - 08</a>
+                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/6GYRuEgZ_4k" target="_blank">Statistics - Class - 09</a>
+                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/kQ46OakYmmw" target="_blank">Statistics - Class - 10</a>
+                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/-LcAkVrW7vM" target="_blank">Statistics - Class - 11</a>
+                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/IhHSeSYGNzE" target="_blank">Statistics - Class - 12</a>
+                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/MvsMyVkPAH8" target="_blank">Statistics - Class - 13</a>
+                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/RyDhW6bsVQo" target="_blank">Statistics - Class - 14</a>
                     </ul>
                     <div class="card-body d-flex justify-content-end">
                         <a href="https://www.youtube.com/playlist?list=PL8rCA8Qh8VHvbWauF-Z-rHlNTvrchyPRZ" target="_blank" class="card-link btn btn-outline-danger btn-sm"><i class="fab fa-youtube"></i> Playlist</a>
@@ -276,7 +263,7 @@
                 </div>
             </div>
             
-            <div class="col mt-4" id="vmf" data-aos="fade-up-left">
+            <div class="col mt-4 wow fadeInRight" id="vmf">
                 <div class="card" style="width: 22rem;">
                     <img src="img/mat.jpg" class="card-img-top" alt="Mathematics">
                     <div class="card-body">
@@ -284,21 +271,21 @@
                         <p class="card-text">Subject Code : MAT 205</p>
                     </div>
                     <ul class="list-group list-group-flush">
-                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/DGY6bvjzbeU" target="_blank">MAT - Class - 01</a>
-                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/3WyDcu1i2jc" target="_blank">MAT - Class - 02</a>
-                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/oCsvDCM6QeI" target="_blank">MAT - Class - 03</a>
-                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/A5Y7c-_AtSg" target="_blank">MAT - Class - 04</a>
-                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/DqKsoyNrsxg" target="_blank">MAT - Class - 05</a>
-                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/tGZG-FHg87o" target="_blank">MAT - Class - 06</a>
-                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/u_0g_IsPeRM" target="_blank">MAT - Class - 07</a>
-                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/JEWogC-8HsU" target="_blank">MAT - Class - 08</a>
-                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/XnP99s8yRCo" target="_blank">MAT - Class - 09</a>
-                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/zs_0yM0eFuI" target="_blank">MAT - Class - 10</a>
-                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/ZRcJduxmFsU" target="_blank">MAT - Class - 11</a>
-                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/f23EVe6nrcU" target="_blank">MAT - Class - 12</a>
-                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/iqwUhk0-nmg" target="_blank">MAT - Class - 13</a>
-                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/wZo5Im5XGzo" target="_blank">MAT - Class - 14</a>
-                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/I4KgOSbUySk" target="_blank">MAT - Class - 15</a>
+                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/DGY6bvjzbeU" target="_blank">Mathematics - Class - 01</a>
+                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/3WyDcu1i2jc" target="_blank">Mathematics - Class - 02</a>
+                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/oCsvDCM6QeI" target="_blank">Mathematics - Class - 03</a>
+                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/A5Y7c-_AtSg" target="_blank">Mathematics - Class - 04</a>
+                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/DqKsoyNrsxg" target="_blank">Mathematics - Class - 05</a>
+                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/tGZG-FHg87o" target="_blank">Mathematics - Class - 06</a>
+                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/u_0g_IsPeRM" target="_blank">Mathematics - Class - 07</a>
+                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/JEWogC-8HsU" target="_blank">Mathematics - Class - 08</a>
+                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/XnP99s8yRCo" target="_blank">Mathematics - Class - 09</a>
+                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/zs_0yM0eFuI" target="_blank">Mathematics - Class - 10</a>
+                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/ZRcJduxmFsU" target="_blank">Mathematics - Class - 11</a>
+                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/f23EVe6nrcU" target="_blank">Mathematics - Class - 12</a>
+                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/iqwUhk0-nmg" target="_blank">Mathematics - Class - 13</a>
+                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/wZo5Im5XGzo" target="_blank">Mathematics - Class - 14</a>
+                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/I4KgOSbUySk" target="_blank">Mathematics - Class - 15</a>
                     </ul>
                     <div class="card-body d-flex justify-content-end">
                         <a href="https://www.youtube.com/playlist?list=PL8rCA8Qh8VHuHerrhCOF734tuoNw7bf_V" target="_blank" class="card-link btn btn-outline-danger btn-sm"><i class="fab fa-youtube"></i> Playlist</a>
@@ -306,7 +293,7 @@
                 </div>
             </div>
 
-            <div class="col mt-4" id="ds" data-aos="fade-up-right">
+            <div class="col mt-4 wow fadeInLeft" id="ds">
                 <div class="card" style="width: 22rem;">
                     <img src="img/ds.jpg" class="card-img-top" alt="Data Structure">
                     <div class="card-body">
@@ -314,12 +301,12 @@
                         <p class="card-text">Subject Code : CSE 201</p>
                     </div>
                     <ul class="list-group list-group-flush">
-                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/2-80Y-p1ymI" target="_blank">DS - Class - 01</a>
-                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/LdU7V7q8DHE" target="_blank">DS - Class - 02</a>
-                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/DZk4gHNSSrQ" target="_blank">DS - Class - 03</a>
-                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/AJ9Mv3SbuTg" target="_blank">DS - Class - 04</a>
-                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/GFITngi9mhk" target="_blank">DS - Class - 05</a>
-                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/Q4F6R_jktfk" target="_blank">DS - Class - 06</a>
+                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/2-80Y-p1ymI" target="_blank">Data Structure - Class - 01</a>
+                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/LdU7V7q8DHE" target="_blank">Data Structure - Class - 02</a>
+                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/DZk4gHNSSrQ" target="_blank">Data Structure - Class - 03</a>
+                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/AJ9Mv3SbuTg" target="_blank">Data Structure - Class - 04</a>
+                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/GFITngi9mhk" target="_blank">Data Structure - Class - 05</a>
+                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/Q4F6R_jktfk" target="_blank">Data Structure - Class - 06</a>
                     </ul>
                     <div class="card-body d-flex justify-content-end">
                         <a href="https://www.youtube.com/playlist?list=PL8rCA8Qh8VHuykmaj2TjKyYEttl_zXK7B" target="_blank" class="card-link btn btn-outline-danger btn-sm"><i class="fab fa-youtube"></i> Playlist</a>
@@ -327,7 +314,7 @@
                 </div>
             </div>
 
-            <!-- <div class="col mt-4">
+            <!-- <div class="col mt-4 wow fadeInUp">
                 <div class="card" style="width: 22rem;">
                     <img src="https://source.unsplash.com/1600x900/?algorithm" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -346,13 +333,13 @@
         </div>
     </div>
 
-    <div class="h-100 p-5 container-expand-lg text-dark bg-light d-flex justify-content-center mt-4" id="ar" data-aos="slide-up">
+    <div class="h-100 p-5 container-expand-lg text-dark bg-light d-flex justify-content-center mt-4 wow fadeInUp" id="ar">
         <p class="h3"><i class="fas fa-plus-circle"></i> Additional Resources</p>
     </div>
  
     <div class="container">
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
-            <div class="col mt-4" data-aos="fade-up-right">
+            <div class="col mt-4 wow fadeInLeft">
                 <div class="card border-success" style="max-width: 22rem;">
                     <a href="https://groups.google.com/g/cse203-jan2020" target="_blank">
                         <div class="card-header bg-transparent border-success"><i class="fas fa-user-friends"></i> Google Group</div>
@@ -364,7 +351,7 @@
                 </div>
             </div>    
 
-            <div class="col mt-4" data-aos="fade-up">
+            <div class="col mt-4 wow fadeInUp">
                 <div class="card border-success" style="max-width: 22rem;">
                     <a href="https://classroom.google.com/u/0/c/Njc0OTE2NzM0NjBa" target="_blank">
                         <div class="card-header bg-transparent border-success"><i class="fas fa-users"></i> Google Classroom</div>
@@ -376,7 +363,7 @@
                 </div>
             </div>
 
-            <div class="col mt-4" data-aos="fade-up-left">
+            <div class="col mt-4 wow fadeInRight">
                 <div class="card border-success" style="max-width: 22rem;">
                     <a href="https://classroom.google.com/u/0/c/MTQ3MjU0NzU1NzIw" target="_blank">
                         <div class="card-header bg-transparent border-success"><i class="fas fa-users"></i> Google Classroom</div>
@@ -388,7 +375,7 @@
                 </div>
             </div>
 
-            <div class="col mt-4" data-aos="fade-up-right">
+            <div class="col mt-4 wow fadeInLeft">
                 <div class="card border-success" style="max-width: 22rem;">
                     <a href="https://drive.google.com/drive/folders/14s5PT9qT-jQqedlmESm5dGE9EPdgiGQ9?usp=sharing" target="_blank">
                         <div class="card-header bg-transparent border-success"><i class="fas fa-photo-video"></i> Java Tutorials by Maloy Sir</div>
@@ -400,7 +387,7 @@
                 </div>
             </div>
 
-            <div class="col mt-4" data-aos="fade-up">
+            <div class="col mt-4 wow fadeInUp">
                 <div class="card border-success" style="max-width: 22rem;">
                     <a href="https://drive.google.com/file/d/14O8LJX_5XlKEmDANc1Yr4O9hNBiOIXjH/view?usp=sharing" target="_blank">
                         <div class="card-body text-success">
@@ -410,7 +397,7 @@
                 </div>
             </div>
 
-            <div class="col mt-4" data-aos="fade-up-left">
+            <div class="col mt-4 wow fadeInRight">
                 <div class="card border-success" style="max-width: 22rem;">
                     <a href="https://github.com/ShantoNoor/bsmrstu_cse_semester_questions" target="_blank">
                         <div class="card-body text-success">
@@ -420,7 +407,7 @@
                 </div>
             </div>
             
-            <div class="col mt-4" data-aos="fade-up-right">
+            <div class="col mt-4 wow fadeInLeft">
                 <div class="card border-success" style="max-width: 22rem;">
                     <a href="https://drive.google.com/file/d/18oSa0uNs4Xnaqe6CjUlkMnqYJqWvsYZk/view?usp=sharing" target="_blank">
                         <div class="card-body text-success">
@@ -432,21 +419,20 @@
         </div>
     </div>
 
-    <div class="h-100 p-5 container-expand-lg text-dark bg-light d-flex justify-content-center mt-4" data-aos="slide-up">
+    <div class="h-100 p-5 container-expand-lg text-dark bg-light d-flex justify-content-center mt-4 wow fadeInUp">
         <p class="h3">
-            <a href="https://www.youtube.com/channel/UCcYetB1giQHeS-X7NcAedvw" target="_blank" class="btn btn-danger btn"><i class="fab fa-youtube"></i> YouTube</a> | 
-            <a href="https://github.com/ShantoNoor/ClassLinks" target="_blank" class="btn btn-dark btn"><i class="fab fa-github"></i> GitHub</a>
+            <a href="https://www.youtube.com/channel/UCcYetB1giQHeS-X7NcAedvw" target="_blank" class="btn btn-danger btn wow fadeInLeft"><i class="fab fa-youtube"></i> YouTube</a>
+            <a href="https://github.com/ShantoNoor/ClassLinks" target="_blank" class="btn btn-dark btn wow fadeInRight"><i class="fab fa-github"></i> GitHub</a>
         </p>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
         crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    
+    <script src="js/wow.min.js"></script>
     <script>
-        AOS.init({
-            once: true
-        });
+        new WOW().init();
     </script>
 </body>
 
