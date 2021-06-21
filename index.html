@@ -16,23 +16,13 @@
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     
     <link rel="stylesheet" href="css/animate.css">
-
-    <style>
-        a { text-decoration: none; }
-        .bbox { height: 200px; }
-        @media all and (min-width: 992px) {
-            .navbar .nav-item .dropdown-menu{ display: none; }
-            .navbar .nav-item:hover .nav-link{   }
-            .navbar .nav-item:hover .dropdown-menu{ display: block; }
-            .navbar .nav-item .dropdown-menu{ margin-top:0; }
-        }
-    </style>
+    <link rel="stylesheet" href="css/style.css">
     
     <title>All Class Recordings and More | ClassLinks</title>
 </head>
 
 <body>
-    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark wow slideInDown">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light wow slideInDown">
         <div class="container">
             <a class="navbar-brand" href="https://shantonoor.github.io/ClassLinks/">ClassLinks</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -47,7 +37,7 @@
                             data-bs-toggle="dropdown" aria-expanded="false" aria-current="page">
                             2nd Semester
                         </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown3" aria-current="page">
+                        <ul class="dropdown-menu text-danger" aria-labelledby="navbarDropdown3" aria-current="page">
                             <li><a class="dropdown-item" aria-current="page" href="#ads">Algorithms Design and Analysis |
                                     CSE 251</a></li>
                             <li>
@@ -104,164 +94,166 @@
     </nav>
 
     
-    <div class="h-100 p-5 container-expand-lg text-dark bg-light d-flex justify-content-center wow fadeInDown" id="snd">
-        <p class="h3"><i class="fas fa-book"></i> 2nd Semester</p>
+    <div class="py-5 container-fluid text-dark bg-white d-flex justify-content-center align-items-center wow fadeInDown" id="snd">
+        <h1><i class="fas fa-book"></i> 2nd Semester</h1>
     </div>
 
-
-    <div class="container">
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
-            <div class="col mt-4 wow fadeInLeft" id="ads">
-                <div class="card" style="width: 22rem;">
-                    <div class="bbox bg-primary text-light d-flex flex-column justify-content-center align-items-center">
-                        <h3><i class="fas fa-project-diagram"></i></h3>
-                        <h5 class="card-title">Algorithms Design and Analysis</h5>
-                        <p class="card-text">Subject Code : CSE 251</p>
+    <section class="container-fluid text-dark bg-light wow fadeInDown pb-4">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+                <div class="col mt-4 wow fadeInLeft" id="ads">
+                    <div class="card" style="max-width: 22rem;">
+                        <div class="bbox bg-primary text-light d-flex flex-column justify-content-center align-items-center">
+                            <h3><i class="fas fa-project-diagram"></i></h3>
+                            <h5 class="card-title">Algorithms Design and Analysis</h5>
+                            <p class="card-text">Subject Code : CSE 251</p>
+                        </div>
+                        <div class="accordion accordion-flush" id="accads">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#colads" aria-expanded="false" aria-controls="flush-collapseOne">
+                                        Show Videos
+                                    </button>
+                                </h2>
+                                <div id="colads" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accads">
+                                    <div class="accordion-body">
+                                        <ul class="list-group list-group-flush">
+                                            <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/nFodCanWRSQ" target="_blank">ADS - Class Date : 20-06-2021</a>
+                                            <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/ILutWXtYUKc" target="_blank">ADS - Class Date : 13-06-2021</a>
+                                            <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/s0q9uevzFvs" target="_blank">ADS - Class Date : 10-06-2021</a>
+                                            <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/_NWl6SNNq9s" target="_blank">ADS - Class Date : 07-06-2021</a>
+                                            <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/mY1eTsNdYc8" target="_blank">ADS - Class Date : 31-05-2021</a>
+                                            <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/w7WeDAb7naM" target="_blank">ADS - Class Date : 30-05-2021</a>
+                                            <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/IHWQoZhg5AQ" target="_blank">ADS - Class Date : 18-03-2021</a>
+                                            <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/rRmHvTQ6AQg" target="_blank">ADS - Class Date : 15-03-2021</a>
+                                            <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/BfL_2GGCN7o" target="_blank">ADS - Class Date : 08-03-2021</a>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body d-flex d-flex justify-content-end">
+                            <a href="https://www.youtube.com/playlist?list=PL8rCA8Qh8VHsoMQbAXthQz894nUvxl-wY" target="_blank" class="card-link btn btn-outline-danger btn-sm"><i class="fab fa-youtube"></i> Playlist</a>
+                            <a href="https://drive.google.com/drive/folders/1lMoYHNpgQidnrH7i6ZYHkdJpHHIsQqQ6" target="_blank" class="card-link btn btn-warning btn-sm"><i class="fab fa-google-drive"></i> Pdfs</a>
+                        </div>
                     </div>
-                    <div class="accordion accordion-flush" id="accads">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="flush-headingOne">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#colads" aria-expanded="false" aria-controls="flush-collapseOne">
-                                    Show All Videos
-                                </button>
-                            </h2>
-                            <div id="colads" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accads">
-                                <div class="accordion-body">
-                                    <ul class="list-group list-group-flush">
-                                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/ILutWXtYUKc" target="_blank">ADS - Class Date : 13-06-2021</a>
-                                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/s0q9uevzFvs" target="_blank">ADS - Class Date : 10-06-2021</a>
-                                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/_NWl6SNNq9s" target="_blank">ADS - Class Date : 07-06-2021</a>
-                                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/mY1eTsNdYc8" target="_blank">ADS - Class Date : 31-05-2021</a>
-                                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/w7WeDAb7naM" target="_blank">ADS - Class Date : 30-05-2021</a>
-                                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/IHWQoZhg5AQ" target="_blank">ADS - Class Date : 18-03-2021</a>
-                                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/rRmHvTQ6AQg" target="_blank">ADS - Class Date : 15-03-2021</a>
-                                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/BfL_2GGCN7o" target="_blank">ADS - Class Date : 08-03-2021</a>
-                                    </ul>
+                </div>
+
+                <div class="col mt-4 wow fadeInUp" id="ids">
+                    <div class="card" style="max-width: 22rem;">
+                        <div class="bbox bg-success text-light d-flex flex-column justify-content-center align-items-center">
+                            <h3><i class="fas fa-calculator"></i></h3>
+                            <h5 class="card-title">Introduction to Digital Systems</h5>
+                            <p class="card-text">Subject Code : CSE 253</p>
+                        </div>
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOneids" aria-expanded="false" aria-controls="flush-collapseOne">
+                                        Show Videos
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseOneids" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <ul class="list-group list-group-flush">
+                                            <a href="https://youtu.be/_At2mklJKZI" target="_blank" class="list-group-item list-group-item-action list-group-item-primary">IDS - Class Date : 16-06-2021</a>
+                                            <a href="https://youtu.be/K6AzvWgFRGA" target="_blank" class="list-group-item list-group-item-action list-group-item-info">IDS - Class Date : 09-06-2021</a>
+                                            <a href="https://youtu.be/58YYCEO2Uao" target="_blank" class="list-group-item list-group-item-action list-group-item-primary">IDS - Class Date : 07-06-2021</a>
+                                            <a href="https://youtu.be/8cBRMcwijYA" target="_blank" class="list-group-item list-group-item-action list-group-item-info">IDS - Class Date : 02-06-2021</a>
+                                            <a href="https://youtu.be/pqD-ck_JYV0" target="_blank" class="list-group-item list-group-item-action list-group-item-primary">IDS - Class Date : 31-05-2021</a>
+                                            <a href="https://youtu.be/Vn3340EgI_g" target="_blank" class="list-group-item list-group-item-action list-group-item-info">IDS - Class Date : 15-03-2021</a>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body d-flex justify-content-end">
+                            <a href="https://www.youtube.com/playlist?list=PL8rCA8Qh8VHsWgFOycdvJzS3n_zQNwmot" target="_blank" class="card-link btn btn-outline-danger btn-sm"><i class="fab fa-youtube"></i> Playlist</a>
+                            <a href="https://drive.google.com/drive/u/0/folders/1XvQ_FV8vK0vl-VVKXnqNFm_axssXufD7" target="_blank" class="card-link btn btn-warning btn-sm"><i class="fab fa-google-drive"></i> Pdfs</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col mt-4 wow fadeInRight" id="toc">
+                    <div class="card" style="max-width: 22rem;">
+                        <div class="bbox bg-danger text-light d-flex flex-column justify-content-center align-items-center">
+                            <h3><i class="fas fa-laptop"></i></h3>
+                            <h5 class="card-title">Theory of Computing</h5>
+                            <p class="card-text">Subject Code : CSE 255</p>
+                        </div>
+                        <div class="accordion accordion-flush" id="acctoc">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#coltoc" aria-expanded="false" aria-controls="flush-collapseOne">
+                                        Show Videos
+                                    </button>
+                                </h2>
+                                <div id="coltoc" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#acctoc">
+                                    <div class="accordion-body">
+                                        <ul class="list-group list-group-flush">
+                                            <a href="https://youtu.be/2uxiDKV2l90" target="_blank" class="list-group-item list-group-item-action list-group-item-info">TOC - Class Date : 03-06-2021</a>
+                                            <a href="https://youtu.be/rdP7b2VxI18" target="_blank" class="list-group-item list-group-item-action list-group-item-primary">TOC - Class Date : 02-06-2021</a>
+                                            <a href="https://youtu.be/w6ti9Ip6ooI" target="_blank" class="list-group-item list-group-item-action list-group-item-info">TOC - Class Date : 25-03-2021</a>
+                                            <a href="https://youtu.be/KrmH7h_ZrRs" target="_blank" class="list-group-item list-group-item-action list-group-item-primary">TOC - Class Date : 11-03-2021</a>
+                                            <a href="https://youtu.be/YtrPCSVrUa0" target="_blank" class="list-group-item list-group-item-action list-group-item-info">TOC - Class Date : 10-03-2021</a>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body d-flex justify-content-end">
+                            <a href="https://www.youtube.com/playlist?list=PL8rCA8Qh8VHuuZaKdjkbfJ6jRJTjRJd3P" target="_blank" class="card-link btn btn-outline-danger btn-sm"><i class="fab fa-youtube"></i> Playlist</a>
+                            <a href="https://drive.google.com/drive/folders/139MivZs1PUrwZsjkLYbDZideLvVOR16k?usp=sharing" target="_blank" class="card-link btn btn-warning btn-sm"><i class="fab fa-google-drive"></i> Pdfs</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col mt-4 wow fadeInLeft" id="law">
+                    <div class="card" style="max-width: 22rem;">
+                        <div class="bbox bg-primary text-light d-flex flex-column justify-content-center align-items-center">
+                            <h3><i class="fas fa-gavel"></i></h3>
+                            <h5 class="card-title">Cyber and Intellectual Property Law</h5>
+                            <p class="card-text">Subject Code : LAW 255</p>
+                        </div>
+                        <div class="accordion accordion-flush" id="acclaw">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collaw" aria-expanded="false" aria-controls="flush-collapseOne">
+                                        Show Videos
+                                    </button>
+                                </h2>
+                                <div id="collaw" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#acclaw">
+                                    <div class="accordion-body">
+                                        <ul class="list-group list-group-flush">
+                                            <a href="https://youtu.be/GQx8PcRgMXg" target="_blank" class="list-group-item list-group-item-action list-group-item-info">LAW - Class Date : 17-06-2021</a>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="card-body d-flex d-flex justify-content-end">
-                        <a href="https://www.youtube.com/playlist?list=PL8rCA8Qh8VHsoMQbAXthQz894nUvxl-wY" target="_blank" class="card-link btn btn-outline-danger btn-sm"><i class="fab fa-youtube"></i> Playlist</a>
-                        <a href="https://drive.google.com/drive/folders/1lMoYHNpgQidnrH7i6ZYHkdJpHHIsQqQ6" target="_blank" class="card-link btn btn-warning btn-sm"><i class="fab fa-google-drive"></i> Pdfs</a>
-                    </div>
                 </div>
-            </div>
 
-            <div class="col mt-4 wow fadeInUp" id="ids">
-                <div class="card" style="width: 22rem;">
-                    <div class="bbox bg-success text-light d-flex flex-column justify-content-center align-items-center">
-                        <h3><i class="fas fa-calculator"></i></h3>
-                        <h5 class="card-title">Introduction to Digital Systems</h5>
-                        <p class="card-text">Subject Code : CSE 253</p>
-                    </div>
-                    <div class="accordion accordion-flush" id="accordionFlushExample">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="flush-headingOne">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOneids" aria-expanded="false" aria-controls="flush-collapseOne">
-                                    Show All Videos
-                                </button>
-                            </h2>
-                            <div id="flush-collapseOneids" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">
-                                    <ul class="list-group list-group-flush">
-                                        <a href="https://youtu.be/_At2mklJKZI" target="_blank" class="list-group-item list-group-item-action list-group-item-primary">IDS - Class Date : 16-06-2021</a>
-                                        <a href="https://youtu.be/K6AzvWgFRGA" target="_blank" class="list-group-item list-group-item-action list-group-item-info">IDS - Class Date : 09-06-2021</a>
-                                        <a href="https://youtu.be/58YYCEO2Uao" target="_blank" class="list-group-item list-group-item-action list-group-item-primary">IDS - Class Date : 07-06-2021</a>
-                                        <a href="https://youtu.be/8cBRMcwijYA" target="_blank" class="list-group-item list-group-item-action list-group-item-info">IDS - Class Date : 02-06-2021</a>
-                                        <a href="https://youtu.be/pqD-ck_JYV0" target="_blank" class="list-group-item list-group-item-action list-group-item-primary">IDS - Class Date : 31-05-2021</a>
-                                        <a href="https://youtu.be/Vn3340EgI_g" target="_blank" class="list-group-item list-group-item-action list-group-item-info">IDS - Class Date : 15-03-2021</a>
-                                    </ul>
-                                </div>
-                            </div>
+                <div class="col mt-4 wow fadeInUp" id="adsl">
+                    <div class="card" style="max-width: 22rem;">
+                        <div class="bbox bg-success text-light d-flex flex-column justify-content-center align-items-center">
+                            <h3><i class="fas fa-keyboard"></i></h3>
+                            <h5 class="card-title">Algorithms Design and Analysis Lab</h5>
+                            <p class="card-text">Subject Code : CSE 252</p>
                         </div>
-                    </div>
-                    <div class="card-body d-flex justify-content-end">
-                        <a href="https://www.youtube.com/playlist?list=PL8rCA8Qh8VHsWgFOycdvJzS3n_zQNwmot" target="_blank" class="card-link btn btn-outline-danger btn-sm"><i class="fab fa-youtube"></i> Playlist</a>
-                        <a href="https://drive.google.com/drive/u/0/folders/1XvQ_FV8vK0vl-VVKXnqNFm_axssXufD7" target="_blank" class="card-link btn btn-warning btn-sm"><i class="fab fa-google-drive"></i> Pdfs</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col mt-4 wow fadeInRight" id="toc">
-                <div class="card" style="width: 22rem;">
-                    <div class="bbox bg-danger text-light d-flex flex-column justify-content-center align-items-center">
-                        <h3><i class="fas fa-laptop"></i></h3>
-                        <h5 class="card-title">Theory of Computing</h5>
-                        <p class="card-text">Subject Code : CSE 255</p>
-                    </div>
-                    <div class="accordion accordion-flush" id="acctoc">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="flush-headingOne">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#coltoc" aria-expanded="false" aria-controls="flush-collapseOne">
-                                    Show All Videos
-                                </button>
-                            </h2>
-                            <div id="coltoc" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#acctoc">
-                                <div class="accordion-body">
-                                    <ul class="list-group list-group-flush">
-                                        <a href="https://youtu.be/2uxiDKV2l90" target="_blank" class="list-group-item list-group-item-action list-group-item-info">TOC - Class Date : 03-06-2021</a>
-                                        <a href="https://youtu.be/rdP7b2VxI18" target="_blank" class="list-group-item list-group-item-action list-group-item-primary">TOC - Class Date : 02-06-2021</a>
-                                        <a href="https://youtu.be/w6ti9Ip6ooI" target="_blank" class="list-group-item list-group-item-action list-group-item-info">TOC - Class Date : 25-03-2021</a>
-                                        <a href="https://youtu.be/KrmH7h_ZrRs" target="_blank" class="list-group-item list-group-item-action list-group-item-primary">TOC - Class Date : 11-03-2021</a>
-                                        <a href="https://youtu.be/YtrPCSVrUa0" target="_blank" class="list-group-item list-group-item-action list-group-item-info">TOC - Class Date : 10-03-2021</a>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body d-flex justify-content-end">
-                        <a href="https://www.youtube.com/playlist?list=PL8rCA8Qh8VHuuZaKdjkbfJ6jRJTjRJd3P" target="_blank" class="card-link btn btn-outline-danger btn-sm"><i class="fab fa-youtube"></i> Playlist</a>
-                        <a href="https://drive.google.com/drive/folders/139MivZs1PUrwZsjkLYbDZideLvVOR16k?usp=sharing" target="_blank" class="card-link btn btn-warning btn-sm"><i class="fab fa-google-drive"></i> Pdfs</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col mt-4 wow fadeInLeft" id="law">
-                <div class="card" style="width: 22rem;">
-                    <div class="bbox bg-primary text-light d-flex flex-column justify-content-center align-items-center">
-                        <h3><i class="fas fa-gavel"></i></h3>
-                        <h5 class="card-title">Cyber and Intellectual Property Law</h5>
-                        <p class="card-text">Subject Code : LAW 255</p>
-                    </div>
-                    <div class="accordion accordion-flush" id="acclaw">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="flush-headingOne">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collaw" aria-expanded="false" aria-controls="flush-collapseOne">
-                                    Show All Videos
-                                </button>
-                            </h2>
-                            <div id="collaw" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#acclaw">
-                                <div class="accordion-body">
-                                    <ul class="list-group list-group-flush">
-                                        <a href="https://youtu.be/GQx8PcRgMXg" target="_blank" class="list-group-item list-group-item-action list-group-item-info">LAW - Class Date : 17-06-2021</a>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col mt-4 wow fadeInUp" id="adsl">
-                <div class="card" style="width: 22rem;">
-                    <div class="bbox bg-success text-light d-flex flex-column justify-content-center align-items-center">
-                        <h3><i class="fas fa-keyboard"></i></h3>
-                        <h5 class="card-title">Algorithms Design and Analysis Lab</h5>
-                        <p class="card-text">Subject Code : CSE 252</p>
-                    </div>
-                    <div class="accordion accordion-flush" id="accadsl">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="flush-headingOne">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#colladsl" aria-expanded="false" aria-controls="flush-collapseOne">
-                                    Show All Videos
-                                </button>
-                            </h2>
-                            <div id="colladsl" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accadsl">
-                                <div class="accordion-body">
-                                    <ul class="list-group list-group-flush">
-                                        <a href="https://youtu.be/ZO2I8bic7fM" target="_blank" class="list-group-item list-group-item-action list-group-item-info">ADS Lab - Class Date : 13-03-2021</a>
-                                    </ul>
+                        <div class="accordion accordion-flush" id="accadsl">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#colladsl" aria-expanded="false" aria-controls="flush-collapseOne">
+                                        Show Videos
+                                    </button>
+                                </h2>
+                                <div id="colladsl" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accadsl">
+                                    <div class="accordion-body">
+                                        <ul class="list-group list-group-flush">
+                                            <a href="https://youtu.be/ZO2I8bic7fM" target="_blank" class="list-group-item list-group-item-action list-group-item-info">ADS Lab - Class Date : 13-03-2021</a>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -269,298 +261,315 @@
                 </div>
             </div>
         </div>
+    </section>
+
+    <div class="py-5 container-fluid text-dark bg-white d-flex justify-content-center align-items-center wow fadeInUp" id="ost">
+        <h1><i class="fas fa-book"></i> 1st Semester</h1>
     </div>
 
-    <div class="h-100 p-5 container-expand-lg text-dark bg-light d-flex justify-content-center mt-4 wow fadeInUp" id="ost">
-        <p class="h3"><i class="fas fa-book"></i> 1st Semester</p>
-    </div>
-
-    <div class="container">
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
-            <div class="col mt-4 wow fadeInLeft" id="jt">
-                <div class="card" style="width: 22rem;">
-                    <div class="bbox bg-primary text-light d-flex flex-column justify-content-center align-items-center">
-                        <h3><strong><i class="fas fa-laptop-code"></i></strong></h3>
-                        <h5 class="card-title">Java Technology</h5>
-                        <p class="card-text">Subject Code : CSE 205</p>
-                    </div>
-                    <div class="accordion accordion-flush" id="accjt">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="flush-headingOne">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#colljt" aria-expanded="false" aria-controls="flush-collapseOne">
-                                    Show All Videos
-                                </button>
-                            </h2>
-                            <div id="colljt" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accjt">
-                                <div class="accordion-body">
-                                    <ul class="list-group list-group-flush">
-                                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/DjClCZYVC5M" target="_blank">Java - Class - 01</a>
-                                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/Y1tQSQsmkl4" target="_blank">Java - Class - 02</a>
-                                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/r7e3AweEeP8" target="_blank">Java - Class - 03</a>
-                                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/DwNXKpLuA10" target="_blank">Java - Class - 04</a>
-                                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/6kiOhlFKcfQ" target="_blank">Java - Class - 05</a>
-                                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/U7Vy2-ORwqE" target="_blank">Java - Class - 06</a>
-                                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/bHINP9C_atI" target="_blank">Java - Class - 07</a>
-                                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/BVxPXksa2Ns" target="_blank">Java - Class - 08</a>
-                                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/irplql4ifyE" target="_blank">Java - Class - 09</a>
-                                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/af1CLPbHRcw" target="_blank">Java - Class - 10</a>
-                                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/OZXQ5D_wtss" target="_blank">Java - Class - 11</a>
-                                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/fmFmZQDHkKk" target="_blank">Java - Class - 12</a>
-                                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/Gm28Pi6JVL4" target="_blank">Java - Class - 13</a>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body d-flex justify-content-end">
-                        <a href="https://www.youtube.com/playlist?list=PL8rCA8Qh8VHsOOQgJVfAeJZaKWxcAf4i-" target="_blank" class="card-link btn btn-outline-danger btn-sm"><i class="fab fa-youtube"></i> Playlist</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col mt-4 wow fadeInUp" id="asq">
-                <div class="card" style="width: 22rem;">
-                    <div class="bbox bg-success text-light d-flex flex-column justify-content-center align-items-center">
-                        <h3><i class="fas fa-chart-line"></i></h3>
-                        <h5 class="card-title">Applied Statistics and Queuing</h5>
-                        <p class="card-text">Subject Code : STA 205</p>
-                    </div>
-                    <div class="accordion accordion-flush" id="accsta">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="flush-headingOne">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collsta" aria-expanded="false" aria-controls="flush-collapseOne">
-                                    Show All Videos
-                                </button>
-                            </h2>
-                            <div id="collsta" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accsta">
-                                <div class="accordion-body">
-                                    <ul class="list-group list-group-flush">
-                                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/o7p1DhhDOQk" target="_blank">Statistics - Class - 01-1</a>
-                                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/GSkuCntc1ks" target="_blank">Statistics - Class - 01-2</a>
-                                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/gEaRnce17ek" target="_blank">Statistics - Class - 02</a>
-                                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/MAb59NE_j-o" target="_blank">Statistics - Class - 03</a>
-                                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/Y0vYiax7l4o" target="_blank">Statistics - Class - 04</a>
-                                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/roLnNLJ7Oic" target="_blank">Statistics - Class - 05</a>
-                                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/FNGFv1yILPI" target="_blank">Statistics - Class - 07</a>
-                                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/0OMEpnIum_o" target="_blank">Statistics - Class - 08</a>
-                                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/6GYRuEgZ_4k" target="_blank">Statistics - Class - 09</a>
-                                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/kQ46OakYmmw" target="_blank">Statistics - Class - 10</a>
-                                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/-LcAkVrW7vM" target="_blank">Statistics - Class - 11</a>
-                                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/IhHSeSYGNzE" target="_blank">Statistics - Class - 12</a>
-                                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/MvsMyVkPAH8" target="_blank">Statistics - Class - 13</a>
-                                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/RyDhW6bsVQo" target="_blank">Statistics - Class - 14</a>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body d-flex justify-content-end">
-                        <a href="https://www.youtube.com/playlist?list=PL8rCA8Qh8VHvbWauF-Z-rHlNTvrchyPRZ" target="_blank" class="card-link btn btn-outline-danger btn-sm"><i class="fab fa-youtube"></i> Playlist</a>
-                        <a href="https://drive.google.com/drive/folders/1r-mLSlPXGWW-yejtJhhwhdDV0qK_fnbz?usp=sharing" target="_blank" class="card-link btn btn-warning btn-sm"><i class="fab fa-google-drive"></i> Pdfs</a>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col mt-4 wow fadeInRight" id="vmf">
-                <div class="card" style="width: 22rem;">
-                    <div class="bbox bg-danger text-light d-flex flex-column justify-content-center align-items-center">
-                        <h3><i class="fas fa-not-equal"></i></h3>
-                        <h5 class="card-title">Vector, Matrix and Fourier Analysis</h5>
-                        <p class="card-text">Subject Code : MAT 205</p>
-                    </div>
-                    <div class="accordion accordion-flush" id="accmat">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="flush-headingOne">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collmat" aria-expanded="false" aria-controls="flush-collapseOne">
-                                    Show All Videos
-                                </button>
-                            </h2>
-                            <div id="collmat" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accmat">
-                                <div class="accordion-body">
-                                    <ul class="list-group list-group-flush">
-                                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/DGY6bvjzbeU" target="_blank">Mathematics - Class - 01</a>
-                                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/3WyDcu1i2jc" target="_blank">Mathematics - Class - 02</a>
-                                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/oCsvDCM6QeI" target="_blank">Mathematics - Class - 03</a>
-                                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/A5Y7c-_AtSg" target="_blank">Mathematics - Class - 04</a>
-                                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/DqKsoyNrsxg" target="_blank">Mathematics - Class - 05</a>
-                                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/tGZG-FHg87o" target="_blank">Mathematics - Class - 06</a>
-                                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/u_0g_IsPeRM" target="_blank">Mathematics - Class - 07</a>
-                                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/JEWogC-8HsU" target="_blank">Mathematics - Class - 08</a>
-                                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/XnP99s8yRCo" target="_blank">Mathematics - Class - 09</a>
-                                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/zs_0yM0eFuI" target="_blank">Mathematics - Class - 10</a>
-                                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/ZRcJduxmFsU" target="_blank">Mathematics - Class - 11</a>
-                                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/f23EVe6nrcU" target="_blank">Mathematics - Class - 12</a>
-                                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/iqwUhk0-nmg" target="_blank">Mathematics - Class - 13</a>
-                                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/wZo5Im5XGzo" target="_blank">Mathematics - Class - 14</a>
-                                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/I4KgOSbUySk" target="_blank">Mathematics - Class - 15</a>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body d-flex justify-content-end">
-                        <a href="https://www.youtube.com/playlist?list=PL8rCA8Qh8VHuHerrhCOF734tuoNw7bf_V" target="_blank" class="card-link btn btn-outline-danger btn-sm"><i class="fab fa-youtube"></i> Playlist</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col mt-4 wow fadeInLeft" id="ds">
-                <div class="card" style="width: 22rem;">
-                    <div class="bbox bg-primary text-light d-flex flex-column justify-content-center align-items-center">
-                        <h3><i class="fas fa-server"></i></h3>
-                        <h5 class="card-title">Data Structure</h5>
-                        <p class="card-text">Subject Code : CSE 201</p>
-                    </div>
-                    <div class="accordion accordion-flush" id="accds">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="flush-headingOne">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collds" aria-expanded="false" aria-controls="flush-collapseOne">
-                                    Show All Videos
-                                </button>
-                            </h2>
-                            <div id="collds" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accds">
-                                <div class="accordion-body">
-                                    <ul class="list-group list-group-flush">
-                                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/2-80Y-p1ymI" target="_blank">Data Structure - Class - 01</a>
-                                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/LdU7V7q8DHE" target="_blank">Data Structure - Class - 02</a>
-                                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/DZk4gHNSSrQ" target="_blank">Data Structure - Class - 03</a>
-                                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/AJ9Mv3SbuTg" target="_blank">Data Structure - Class - 04</a>
-                                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/GFITngi9mhk" target="_blank">Data Structure - Class - 05</a>
-                                        <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/Q4F6R_jktfk" target="_blank">Data Structure - Class - 06</a>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body d-flex justify-content-end">
-                        <a href="https://www.youtube.com/playlist?list=PL8rCA8Qh8VHuykmaj2TjKyYEttl_zXK7B" target="_blank" class="card-link btn btn-outline-danger btn-sm"><i class="fab fa-youtube"></i> Playlist</a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- <div class="col mt-4 wow fadeInUp">
-                <div class="card" style="width: 22rem;">
-                    <img src="https://source.unsplash.com/1600x900/?algorithm" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Algorithms Design and Analysis</h5>
-                        <p class="card-text">Subject Code : CSE 251</p>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/ILutWXtYUKc" target="_blank">ADS - Class Date : 13-06-2021</a>
-                    </ul>
-                    <div class="card-body d-flex justify-content-end">
-                        <a href="" target="_blank" class="card-link btn btn-outline-danger btn-sm"><i class="fab fa-youtube"></i> Playlist</a>
-                        <a href="" target="_blank" class="card-link btn btn-warning btn-sm"><i class="fab fa-google-drive"></i> Pdfs</a>
-                    </div>
-                </div>
-            </div> -->
-        </div>
-    </div>
-
-    <div class="h-100 p-5 container-expand-lg text-dark bg-light d-flex justify-content-center mt-4 wow fadeInUp" id="ar">
-        <p class="h3"><i class="fas fa-plus-circle"></i> Additional Resources</p>
-    </div>
- 
-    <div class="container">
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
-            <div class="col mt-4 wow fadeInLeft">
-                <div class="card border-primary" style="max-width: 22rem;">
-                    <a href="https://groups.google.com/g/cse203-jan2020" target="_blank">
-                        <div class="card-header bg-transparent border-primary text-primary"><i class="fas fa-user-friends"></i> Google Group</div>
-                        <div class="card-body text-primary">
-                            <h5 class="card-title">Digital Logic Design</h5>
-                            <p class="card-text">Subject Code : CSE 203</p>
-                        </div>
-                    </a>
-                </div>
-            </div>    
-
-            <div class="col mt-4 wow fadeInUp">
-                <div class="card border-success" style="max-width: 22rem;">
-                    <a href="https://classroom.google.com/u/0/c/Njc0OTE2NzM0NjBa" target="_blank">
-                        <div class="card-header bg-transparent border-success text-success"><i class="fas fa-users"></i> Google Classroom</div>
-                        <div class="card-body text-success">
+    <section class="container-fluid text-dark bg-light wow fadeInDown pb-4">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+                <div class="col mt-4 wow fadeInLeft" id="jt">
+                    <div class="card" style="max-width: 22rem;">
+                        <div class="bbox bg-primary text-light d-flex flex-column justify-content-center align-items-center">
+                            <h3><strong><i class="fas fa-laptop-code"></i></strong></h3>
                             <h5 class="card-title">Java Technology</h5>
                             <p class="card-text">Subject Code : CSE 205</p>
                         </div>
-                    </a>
+                        <div class="accordion accordion-flush" id="accjt">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#colljt" aria-expanded="false" aria-controls="flush-collapseOne">
+                                        Show Videos
+                                    </button>
+                                </h2>
+                                <div id="colljt" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accjt">
+                                    <div class="accordion-body">
+                                        <ul class="list-group list-group-flush">
+                                            <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/DjClCZYVC5M" target="_blank">Java - Class - 01</a>
+                                            <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/Y1tQSQsmkl4" target="_blank">Java - Class - 02</a>
+                                            <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/r7e3AweEeP8" target="_blank">Java - Class - 03</a>
+                                            <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/DwNXKpLuA10" target="_blank">Java - Class - 04</a>
+                                            <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/6kiOhlFKcfQ" target="_blank">Java - Class - 05</a>
+                                            <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/U7Vy2-ORwqE" target="_blank">Java - Class - 06</a>
+                                            <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/bHINP9C_atI" target="_blank">Java - Class - 07</a>
+                                            <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/BVxPXksa2Ns" target="_blank">Java - Class - 08</a>
+                                            <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/irplql4ifyE" target="_blank">Java - Class - 09</a>
+                                            <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/af1CLPbHRcw" target="_blank">Java - Class - 10</a>
+                                            <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/OZXQ5D_wtss" target="_blank">Java - Class - 11</a>
+                                            <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/fmFmZQDHkKk" target="_blank">Java - Class - 12</a>
+                                            <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/Gm28Pi6JVL4" target="_blank">Java - Class - 13</a>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body d-flex justify-content-end">
+                            <a href="https://www.youtube.com/playlist?list=PL8rCA8Qh8VHsOOQgJVfAeJZaKWxcAf4i-" target="_blank" class="card-link btn btn-outline-danger btn-sm"><i class="fab fa-youtube"></i> Playlist</a>
+                        </div>
+                    </div>
                 </div>
-            </div>
 
-            <div class="col mt-4 wow fadeInRight">
-                <div class="card border-danger" style="max-width: 22rem;">
-                    <a href="https://classroom.google.com/u/0/c/MTQ3MjU0NzU1NzIw" target="_blank">
-                        <div class="card-header bg-transparent border-danger text-danger"><i class="fas fa-users"></i> Google Classroom</div>
-                        <div class="card-body text-danger">
-                            <h5 class="card-title">Java Technology Lab</h5>
-                            <p class="card-text">Subject Code : CSE 206</p>
+                <div class="col mt-4 wow fadeInUp" id="asq">
+                    <div class="card" style="max-width: 22rem;">
+                        <div class="bbox bg-success text-light d-flex flex-column justify-content-center align-items-center">
+                            <h3><i class="fas fa-chart-line"></i></h3>
+                            <h5 class="card-title">Applied Statistics and Queuing</h5>
+                            <p class="card-text">Subject Code : STA 205</p>
                         </div>
-                    </a>
+                        <div class="accordion accordion-flush" id="accsta">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collsta" aria-expanded="false" aria-controls="flush-collapseOne">
+                                        Show Videos
+                                    </button>
+                                </h2>
+                                <div id="collsta" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accsta">
+                                    <div class="accordion-body">
+                                        <ul class="list-group list-group-flush">
+                                            <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/o7p1DhhDOQk" target="_blank">Statistics - Class - 01-1</a>
+                                            <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/GSkuCntc1ks" target="_blank">Statistics - Class - 01-2</a>
+                                            <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/gEaRnce17ek" target="_blank">Statistics - Class - 02</a>
+                                            <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/MAb59NE_j-o" target="_blank">Statistics - Class - 03</a>
+                                            <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/Y0vYiax7l4o" target="_blank">Statistics - Class - 04</a>
+                                            <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/roLnNLJ7Oic" target="_blank">Statistics - Class - 05</a>
+                                            <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/FNGFv1yILPI" target="_blank">Statistics - Class - 07</a>
+                                            <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/0OMEpnIum_o" target="_blank">Statistics - Class - 08</a>
+                                            <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/6GYRuEgZ_4k" target="_blank">Statistics - Class - 09</a>
+                                            <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/kQ46OakYmmw" target="_blank">Statistics - Class - 10</a>
+                                            <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/-LcAkVrW7vM" target="_blank">Statistics - Class - 11</a>
+                                            <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/IhHSeSYGNzE" target="_blank">Statistics - Class - 12</a>
+                                            <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/MvsMyVkPAH8" target="_blank">Statistics - Class - 13</a>
+                                            <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/RyDhW6bsVQo" target="_blank">Statistics - Class - 14</a>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body d-flex justify-content-end">
+                            <a href="https://www.youtube.com/playlist?list=PL8rCA8Qh8VHvbWauF-Z-rHlNTvrchyPRZ" target="_blank" class="card-link btn btn-outline-danger btn-sm"><i class="fab fa-youtube"></i> Playlist</a>
+                            <a href="https://drive.google.com/drive/folders/1r-mLSlPXGWW-yejtJhhwhdDV0qK_fnbz?usp=sharing" target="_blank" class="card-link btn btn-warning btn-sm"><i class="fab fa-google-drive"></i> Pdfs</a>
+                        </div>
+                    </div>
                 </div>
-            </div>
+                
+                <div class="col mt-4 wow fadeInRight" id="vmf">
+                    <div class="card" style="max-width: 22rem;">
+                        <div class="bbox bg-danger text-light d-flex flex-column justify-content-center align-items-center">
+                            <h3><i class="fas fa-not-equal"></i></h3>
+                            <h5 class="card-title">Vector, Matrix and Fourier Analysis</h5>
+                            <p class="card-text">Subject Code : MAT 205</p>
+                        </div>
+                        <div class="accordion accordion-flush" id="accmat">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collmat" aria-expanded="false" aria-controls="flush-collapseOne">
+                                        Show Videos
+                                    </button>
+                                </h2>
+                                <div id="collmat" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accmat">
+                                    <div class="accordion-body">
+                                        <ul class="list-group list-group-flush">
+                                            <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/DGY6bvjzbeU" target="_blank">Mathematics - Class - 01</a>
+                                            <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/3WyDcu1i2jc" target="_blank">Mathematics - Class - 02</a>
+                                            <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/oCsvDCM6QeI" target="_blank">Mathematics - Class - 03</a>
+                                            <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/A5Y7c-_AtSg" target="_blank">Mathematics - Class - 04</a>
+                                            <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/DqKsoyNrsxg" target="_blank">Mathematics - Class - 05</a>
+                                            <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/tGZG-FHg87o" target="_blank">Mathematics - Class - 06</a>
+                                            <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/u_0g_IsPeRM" target="_blank">Mathematics - Class - 07</a>
+                                            <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/JEWogC-8HsU" target="_blank">Mathematics - Class - 08</a>
+                                            <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/XnP99s8yRCo" target="_blank">Mathematics - Class - 09</a>
+                                            <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/zs_0yM0eFuI" target="_blank">Mathematics - Class - 10</a>
+                                            <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/ZRcJduxmFsU" target="_blank">Mathematics - Class - 11</a>
+                                            <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/f23EVe6nrcU" target="_blank">Mathematics - Class - 12</a>
+                                            <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/iqwUhk0-nmg" target="_blank">Mathematics - Class - 13</a>
+                                            <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/wZo5Im5XGzo" target="_blank">Mathematics - Class - 14</a>
+                                            <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/I4KgOSbUySk" target="_blank">Mathematics - Class - 15</a>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body d-flex justify-content-end">
+                            <a href="https://www.youtube.com/playlist?list=PL8rCA8Qh8VHuHerrhCOF734tuoNw7bf_V" target="_blank" class="card-link btn btn-outline-danger btn-sm"><i class="fab fa-youtube"></i> Playlist</a>
+                        </div>
+                    </div>
+                </div>
 
-            <div class="col mt-4 wow fadeInLeft">
-                <div class="card border-primary" style="max-width: 22rem;">
-                    <a href="https://drive.google.com/drive/folders/14s5PT9qT-jQqedlmESm5dGE9EPdgiGQ9?usp=sharing" target="_blank">
-                        <div class="card-header bg-transparent border-primary"><i class="fab fa-google-drive"></i> Google Drive</div>
-                        <div class="card-body text-primary">
-                            <h5 class="card-title"><i class="fas fa-photo-video"></i> Java Tutorials by Maloy Sir</h5>
-                            <!-- <p class="card-text">Subject Code : CSE 206</p> -->
+                <div class="col mt-4 wow fadeInLeft" id="ds">
+                    <div class="card" style="max-width: 22rem;">
+                        <div class="bbox bg-primary text-light d-flex flex-column justify-content-center align-items-center">
+                            <h3><i class="fas fa-server"></i></h3>
+                            <h5 class="card-title">Data Structure</h5>
+                            <p class="card-text">Subject Code : CSE 201</p>
                         </div>
-                    </a>
+                        <div class="accordion accordion-flush" id="accds">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collds" aria-expanded="false" aria-controls="flush-collapseOne">
+                                        Show Videos
+                                    </button>
+                                </h2>
+                                <div id="collds" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accds">
+                                    <div class="accordion-body">
+                                        <ul class="list-group list-group-flush">
+                                            <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/2-80Y-p1ymI" target="_blank">Data Structure - Class - 01</a>
+                                            <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/LdU7V7q8DHE" target="_blank">Data Structure - Class - 02</a>
+                                            <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/DZk4gHNSSrQ" target="_blank">Data Structure - Class - 03</a>
+                                            <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/AJ9Mv3SbuTg" target="_blank">Data Structure - Class - 04</a>
+                                            <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/GFITngi9mhk" target="_blank">Data Structure - Class - 05</a>
+                                            <a class="list-group-item list-group-item-action list-group-item-info" href="https://youtu.be/Q4F6R_jktfk" target="_blank">Data Structure - Class - 06</a>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body d-flex justify-content-end">
+                            <a href="https://www.youtube.com/playlist?list=PL8rCA8Qh8VHuykmaj2TjKyYEttl_zXK7B" target="_blank" class="card-link btn btn-outline-danger btn-sm"><i class="fab fa-youtube"></i> Playlist</a>
+                        </div>
+                    </div>
                 </div>
-            </div>
 
-            <div class="col mt-4 wow fadeInUp">
-                <div class="card border-success" style="max-width: 22rem;">
-                    <a href="https://drive.google.com/file/d/14O8LJX_5XlKEmDANc1Yr4O9hNBiOIXjH/view?usp=sharing" target="_blank">
-                        <div class="card-header bg-transparent border-success text-success"><i class="fab fa-google-drive"></i> Google Drive</div>
-                        <div class="card-body text-success">
-                            <h5 class="card-title"><i class="fas fa-atlas"></i> CSE Syllabus</h5>
+                <!-- <div class="col mt-4 wow fadeInUp">
+                    <div class="card" style="max-width: 22rem;">
+                        <img src="https://source.unsplash.com/1600x900/?algorithm" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Algorithms Design and Analysis</h5>
+                            <p class="card-text">Subject Code : CSE 251</p>
                         </div>
-                    </a>
-                </div>
+                        <ul class="list-group list-group-flush">
+                            <a class="list-group-item list-group-item-action list-group-item-primary" href="https://youtu.be/ILutWXtYUKc" target="_blank">ADS - Class Date : 13-06-2021</a>
+                        </ul>
+                        <div class="card-body d-flex justify-content-end">
+                            <a href="" target="_blank" class="card-link btn btn-outline-danger btn-sm"><i class="fab fa-youtube"></i> Playlist</a>
+                            <a href="" target="_blank" class="card-link btn btn-warning btn-sm"><i class="fab fa-google-drive"></i> Pdfs</a>
+                        </div>
+                    </div>
+                </div> -->
             </div>
+        </div>
+    </section>
 
-            <div class="col mt-4 wow fadeInRight">
-                <div class="card border-danger" style="max-width: 22rem;">
-                    <a href="https://github.com/ShantoNoor/bsmrstu_cse_semester_questions" target="_blank">
-                        <div class="card-header bg-transparent border-danger text-danger"><i class="fab fa-github"></i> GitHub</div>
-                        <div class="card-body text-danger">
-                            <h5 class="card-title"><i class="fas fa-question-circle"></i> Previous Year Questions</h5>
-                        </div>
-                    </a>
+    <div class="py-5 container-fluid text-dark bg-white d-flex justify-content-center align-items-center wow fadeInUp" id="ar">
+        <h1><i class="fas fa-plus-circle"></i> Additional Resources</h1>
+    </div>
+ 
+    <section class="container-fluid text-dark bg-light wow fadeInDown pb-4">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+                <div class="col mt-4 wow fadeInLeft">
+                    <div class="card border-primary" style="max-width: 22rem;">
+                        <a href="https://groups.google.com/g/cse203-jan2020" target="_blank">
+                            <div class="card-header bg-transparent border-primary text-primary"><i class="fas fa-user-friends"></i> Google Group</div>
+                            <div class="card-body text-primary">
+                                <h5 class="card-title">Digital Logic Design</h5>
+                                <p class="card-text">Subject Code : CSE 203</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>    
+
+                <div class="col mt-4 wow fadeInUp">
+                    <div class="card border-success" style="max-width: 22rem;">
+                        <a href="https://classroom.google.com/u/0/c/Njc0OTE2NzM0NjBa" target="_blank">
+                            <div class="card-header bg-transparent border-success text-success"><i class="fas fa-users"></i> Google Classroom</div>
+                            <div class="card-body text-success">
+                                <h5 class="card-title">Java Technology</h5>
+                                <p class="card-text">Subject Code : CSE 205</p>
+                            </div>
+                        </a>
+                    </div>
                 </div>
-            </div>
-            
-            <div class="col mt-4 wow fadeInLeft">
-                <div class="card border-primary" style="max-width: 22rem;">
-                    <a href="https://drive.google.com/file/d/18oSa0uNs4Xnaqe6CjUlkMnqYJqWvsYZk/view?usp=sharing" target="_blank">
-                        <div class="card-header bg-transparent border-primary text-primary"><i class="fab fa-google-drive"></i> Google Drive</div>
-                        <div class="card-body text-primary">
-                            <h5 class="card-title"><i class="fas fa-sticky-note"></i> 2nd Semester Routine</h5>
-                        </div>
-                    </a>
+
+                <div class="col mt-4 wow fadeInRight">
+                    <div class="card border-danger" style="max-width: 22rem;">
+                        <a href="https://classroom.google.com/u/0/c/MTQ3MjU0NzU1NzIw" target="_blank">
+                            <div class="card-header bg-transparent border-danger text-danger"><i class="fas fa-users"></i> Google Classroom</div>
+                            <div class="card-body text-danger">
+                                <h5 class="card-title">Java Technology Lab</h5>
+                                <p class="card-text">Subject Code : CSE 206</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col mt-4 wow fadeInLeft">
+                    <div class="card border-primary" style="max-width: 22rem;">
+                        <a href="https://drive.google.com/drive/folders/14s5PT9qT-jQqedlmESm5dGE9EPdgiGQ9?usp=sharing" target="_blank">
+                            <div class="card-header bg-transparent border-primary"><i class="fab fa-google-drive"></i> Google Drive</div>
+                            <div class="card-body text-primary">
+                                <h5 class="card-title"><i class="fas fa-file-video"></i> Java Tutorials by Maloy Sir</h5>
+                                <p class="card-text">Subject Code : CSE 205</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col mt-4 wow fadeInUp">
+                    <div class="card border-success" style="max-width: 22rem;">
+                        <a href="https://drive.google.com/file/d/14O8LJX_5XlKEmDANc1Yr4O9hNBiOIXjH/view?usp=sharing" target="_blank">
+                            <div class="card-header bg-transparent border-success text-success"><i class="fab fa-google-drive"></i> Google Drive</div>
+                            <div class="card-body text-success">
+                                <h5 class="card-title"><i class="fas fa-file-pdf"></i> CSE Syllabus</h5>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col mt-4 wow fadeInRight">
+                    <div class="card border-danger" style="max-width: 22rem;">
+                        <a href="https://github.com/ShantoNoor/bsmrstu_cse_semester_questions" target="_blank">
+                            <div class="card-header bg-transparent border-danger text-danger"><i class="fab fa-github"></i> GitHub</div>
+                            <div class="card-body text-danger">
+                                <h5 class="card-title"><i class="fas fa-file-archive"></i> Previous Year Questions</h5>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="col mt-4 wow fadeInLeft">
+                    <div class="card border-primary" style="max-width: 22rem;">
+                        <a href="https://drive.google.com/file/d/18oSa0uNs4Xnaqe6CjUlkMnqYJqWvsYZk/view?usp=sharing" target="_blank">
+                            <div class="card-header bg-transparent border-primary text-primary"><i class="fab fa-google-drive"></i> Google Drive</div>
+                            <div class="card-body text-primary">
+                                <h5 class="card-title"><i class="fas fa-file-pdf"></i> 2nd Semester Routine</h5>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col mt-4 wow fadeInUp">
+                    <div class="card border-success" style="max-width: 22rem;">
+                        <a href="https://drive.google.com/file/d/1Ocp_PBIw1hksU_ug45fNqZaCm4CFD_7f/view?usp=sharing" target="_blank">
+                            <div class="card-header bg-transparent border-success text-success"><i class="fab fa-google-drive"></i> Google Drive</div>
+                            <div class="card-body text-success">
+                                <h5 class="card-title"><i class="fas fa-file-pdf"></i> Digital Electronics Lab Manual</h5>
+                                <p class="card-text">Subject Code : CSE 254</p>
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="h-100 p-5 container-expand-lg text-dark bg-light d-flex justify-content-center mt-4 wow fadeInUp">
+    <div class="py-4 container-fluid text-dark bg-white d-flex justify-content-center align-items-center wow fadeInUp">
         <p class="h3">
-            <a href="https://www.youtube.com/channel/UCcYetB1giQHeS-X7NcAedvw" target="_blank" class="btn btn-danger btn btn-sm wow fadeInLeft"><i class="fab fa-youtube"></i> YouTube</a>
-            <a href="https://github.com/ShantoNoor/ClassLinks" target="_blank" class="btn btn-dark btn btn-sm wow fadeInRight"><i class="fab fa-github"></i> GitHub</a>
+            <a href="https://www.youtube.com/channel/UCcYetB1giQHeS-X7NcAedvw" target="_blank" class="btn btn-danger wow fadeInLeft footer-btn"><i class="fab fa-youtube"></i> YouTube</a>
+            <a href="https://github.com/ShantoNoor/ClassLinks" target="_blank" class="btn btn-dark wow fadeInRight footer-btn"><i class="fab fa-github"></i> GitHub</a>
         </p>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
         crossorigin="anonymous"></script>
-    
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
     <script src="js/wow.min.js"></script>
-    <script>
-        new WOW().init();
-    </script>
+
+    <script src="js/main.js"></script>
 </body>
 
 </html>
