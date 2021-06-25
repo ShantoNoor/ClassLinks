@@ -39,6 +39,7 @@ a { text-decoration: none; }
 
 .navbar-scrolling .dropdown-menu {
     background-color: #000 !important;
+    border: 1px solid rgba(255, 255, 255, 0.25) !important;
 }
 
 .navbar-scrolling .dropdown-item:hover {
@@ -52,6 +53,24 @@ a { text-decoration: none; }
     .navbar .nav-item .dropdown-menu{ margin-top:0; }
 }
 
+@media all and (max-width: 736px) {
+    .container { max-width: 100%; }
+}
+
+@media all and (max-width: 667px) {
+    .card-title { font-size: 1rem; }
+}
+
 @media all and (max-width: 376px) {
     .card-title { font-size: 1.15rem; }
 }
+
+@media all and (max-width: 320px) {
+    .card-title { font-size: 1rem; }
+}
+
+@media all and (max-width: 280px) {
+    .card-title { font-size: 0.8rem; }
+    .card-text { font-size: 0.8rem; }
+}
+
