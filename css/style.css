@@ -13,9 +13,9 @@ a { text-decoration: none; }
 }
 
 .navbar-scrolling .dropdown-item,
-.navbar-scrolling .nav-link, 
-.navbar-scrolling .navbar-brand, 
-.navbar-scrolling .navbar-toggler, 
+.navbar-scrolling .nav-link,
+.navbar-scrolling .navbar-brand,
+.navbar-scrolling .navbar-toggler,
 .navbar-scrolling .dropdown-divider {
     color: rgba(255, 255, 255, 0.75) !important;
 }
@@ -25,7 +25,7 @@ a { text-decoration: none; }
 .navbar-scrolling .navbar-brand:hover,
 .navbar-scrolling .dropdown-item:hover {
     color: rgba(255, 255, 255, 1) !important;
-} 
+}
 
 
 .navbar-scrolling .navbar-toggler {
@@ -46,31 +46,56 @@ a { text-decoration: none; }
     background-color: rgba(255, 255, 255, 0.25); !important;
 }
 
-@media all and (min-width: 992px) {
+@media (min-width: 992px) {
     .navbar .nav-item .dropdown-menu{ display: none; }
     .navbar .nav-item:hover .nav-link{   }
     .navbar .nav-item:hover .dropdown-menu{ display: block; }
     .navbar .nav-item .dropdown-menu{ margin-top:0; }
 }
-
-@media all and (max-width: 736px) {
+@media (max-width: 1200px) {
     .container { max-width: 100%; }
 }
 
-@media all and (max-width: 667px) {
+@media (max-width: 1077px) {
+    .card-title { font-size: 1.1rem; }
+}
+
+@media (max-width: 991px) {
+    .card-title { font-size: 1.25rem; }
+    .card { max-width: 100% !important; }
+}
+
+@media (max-width: 725px) {
+    .card-title { font-size: 1.1rem; }
+}
+
+@media (max-width: 648px) {
+    .card-title { font-size: 0.9rem; }
+    .card-text { font-size: 0.85rem; }
+}
+
+@media (max-width: 575px) {
+    .card-title { font-size: 1.25rem; }
+    .card-text { font-size: 1rem; }
+}
+
+@media (max-width: 374px) {
+    .card-title { font-size: 1.1rem; }
+}
+
+@media (max-width: 335px) {
     .card-title { font-size: 1rem; }
 }
 
-@media all and (max-width: 376px) {
-    .card-title { font-size: 1.15rem; }
+@media (max-width: 309px) {
+    .card-title { font-size: 0.9rem; }
+    .card-text { font-size: 0.85rem; }
 }
-
-@media all and (max-width: 320px) {
-    .card-title { font-size: 1rem; }
-}
-
-@media all and (max-width: 280px) {
+@media (max-width: 283px) {
     .card-title { font-size: 0.8rem; }
-    .card-text { font-size: 0.8rem; }
+    .card-text { font-size: 0.75rem; }
 }
-
+@media (max-width: 257px) {
+    .card-title { font-size: 0.7rem; }
+    .card-text { font-size: 0.65rem; }
+}
