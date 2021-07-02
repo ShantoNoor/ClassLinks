@@ -27,6 +27,19 @@ a { text-decoration: none; }
     top: 0;
     z-index: 10;
     width: 100%;
+    animation: sildeDown .75s ease-out;
+}
+
+@keyframes sildeDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
 }
 
 .navbar-scrolling {
