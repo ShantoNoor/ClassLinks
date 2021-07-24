@@ -17,12 +17,11 @@ let sndwriter = new Typewriter(snd, {
 });
 sndwriter
   .pauseFor(500)
-  // .typeString('<i class="fas fa-book"></i> 2nd Semester')
-  .typeString('Eid Mubarak <i class="fas fa-heart"></i>')
+  .typeString('<i class="fas fa-book"></i> 2nd Semester')
   .pauseFor(1000)
-  // .deleteChars(13)
-  // .typeString(' 2nd Semester')
-  // .pauseFor(1000)
+  .deleteChars(13)
+  .typeString(' 2nd Semester')
+  .pauseFor(1000)
   .start();
 
 
@@ -33,12 +32,11 @@ let ostwriter = new Typewriter(ost, {
 });
 ostwriter
   .pauseFor(600)
-  // .typeString('<i class="fas fa-book"></i> 1st Semester')
-  .typeString('Eid Mubarak <i class="fas fa-heart"></i>')
+  .typeString('<i class="fas fa-book"></i> 1st Semester')
   .pauseFor(1000)
-  // .deleteChars(13)
-  // .typeString(' 1st Semester')
-  // .pauseFor(1000)
+  .deleteChars(13)
+  .typeString(' 1st Semester')
+  .pauseFor(1000)
   .start();
 
 
@@ -49,10 +47,9 @@ let arwriter = new Typewriter(ar, {
 });
 arwriter
   .pauseFor(700)
-  // .typeString('<i class="fas fa-plus-circle"></i> Additional Resources')
-  .typeString('Eid Mubarak <i class="fas fa-heart"></i>')
+  .typeString('<i class="fas fa-plus-circle"></i> Additional Resources')
   .pauseFor(1000)
-  // .deleteChars(21)
-  // .typeString(' Additional Resources')
-  // .pauseFor(1000)
+  .deleteChars(21)
+  .typeString(' Additional Resources')
+  .pauseFor(1000)
   .start();
