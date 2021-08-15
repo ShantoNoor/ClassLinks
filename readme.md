@@ -1,2 +1,2 @@
 # ClassLinks
-#### https://shantonoor.github.io/ClassLinks/
+> https://shantonoor.github.io/ClassLinks/
